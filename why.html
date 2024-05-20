@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#f5f5f5]">
+    <header class="lg:block md:block sm:hidden hidden">
+      <div class="bg-yellow-300 text-white flex justify-between px-12 py-2">
+        <div>
+          <div class="lg:flex gap-x-4">
+            <div class="">
+              <i class="fa-solid fa-headset text-black/85 pe-2"></i
+              ><a
+                href=""
+                class="text-sm hover:text-black/85 transform duration-150 text-black/50"
+                >blissful.eventsolutions@gmail.com</a
+              >
+            </div>
+            <div class="">
+              <i class="fa-solid fa-square-phone text-black/85"></i>
+              <a
+                href=""
+                class="text-sm hover:text-black/85 transform duration-150 text-black/50"
+                >+91 9914021087</a
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex gap-x-4">
+            <div><i class="fa-brands fa-facebook-f text-black/85"></i></div>
+            <div><i class="fa-brands fa-x-twitter text-black/85"></i></div>
+            <div><i class="fa-brands fa-google-plus-g text-black/85"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav
+    class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
+  >
+    <div>
+      <a href="#"
+        ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
+      /></a>
+    </div>
+    <div>
+      <ul
+        class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
+      >
+        <li><a href="/" class="font-medium">Home</a></li>
+        <li><a href="./why.html" class="font-medium">About</a></li>
+        <li class="group relative">
+          <a href="#" class="font-medium">Services</a><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+          <div class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md  shadow-md">
+              <div class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2">
+                  <div class="text-center text-sm px-2 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Digital Marketing</a></div>
+                  <div class="text-center text-sm px-2 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Acrylic Signage</a></div>
+                  <div class="text-center text-sm px-2 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
+              </div>
+          </div>
+      </li>
+        
+        <li><a href="./contact.html" class="font-medium">Contact</a></li>
+        <li><a href="#" class="font-medium">Blogs</a></li>
+      </ul>
+    </div>
+    <div class="lg:hidden md:hidden sm:block block toggle">
+      <img
+        src="./assets//images/menu-icon.png"
+        alt=""
+        class="w-12 h-12 object-fit"
+      />
+    </div>
+    <div class="lg:hidden md:hidden sm:hidden hidden close">
+      <img
+        src="./assets//images/toggle-close.png"
+        alt=""
+        class="w-8 h-8 object-fit"
+      />
+    </div>
+  </nav>
+  <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
+      <div class="flex flex-col justify-center gap-y-6 px-5">
+          <div class="text-center py-3 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Acrylic Signage</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Digital Marketing</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
+      </div>
+  </div> -->
+
+  
+  <div class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md">
+      <div class="flex flex-col justify-center gap-y-6">
+          <div class="text-center py-3 border-b-2"><a href="/" class="font-medium">Home</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./why.html" class="font-medium">About</a></div>
+          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Services</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./contact.html" class="font-medium">Contact</a></div>
+          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Blogs</a></div>
+      </div>
+  </div>
+    <section>
+      <div class="w-full h-[max-content] md:px-28 px-3 pt-20 relative">
+        <img
+           src="./assets/images/4.png"
+          class="absolute left-[-99px] md:left-[-69px] top-0 z-[-1] w-[200px]"
+          alt=""
+        />
+        <div
+          class="flex justify-between xl:flex-nowrap flex-wrap items-center w-full"
+        >
+          <div class="xl:w-[800px]">
+            <h2
+              class="md:text-[50px] text-[30px] text-center md:text-start font-bold"
+            >
+              Why <span class="text-[#014e86]"> Blissful</span> Solutions
+              <span class="text-[#014e86] md:text-[60px]">?</span>
+            </h2>
+            <p class="text-lg ms-7 flex gap-2 mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Long-Term Commitments and Innovative Strategies
+            </p>
+            <p class="text-sm ms-7 mt-3">
+              At
+              <span class="text-[16px] font-bold">Blissful Solutions</span> We
+              aim to empower businesses to reach new heights by providing them
+              with comprehensive, long-term strategies that foster growth,
+              enhance brand identity, and drive measurable results. We aspire to
+              be a catalyst for our clients' success, ensuring their brands
+              stand out in the competitive market.
+              <span class="text-[#014e86]"
+                >Long-Term Commitments and Innovative Strategies</span
+              >
+            </p>
+            <br>
+            <button
+            class="before:ease lg:ms-8 relative h-12 w-40 overflow-hidden border border-yellow-500 text-yellow-600 shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-yellow-500 before:duration-300 hover:text-white hover:shadow-yellow-500 hover:before:h-64 hover:before:-translate-y-32"
+          >
+            <span class="relative z-10">Learn More</span>
+          </button>
+          </div>
+          <div class="relative">
+            <img
+               src="./assets/images/5.png"
+              class="absolute right-0 bottom-0 z-[-1] w-[150px]"
+              alt=""
+            />
+            <img  src="./assets/images/1.png" class="w-[600px]" alt="hero_img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="w-full p-[50px]"></div>
+    <section class="w-full h-[max-content] md:px-28 px-3 relative">
+      <div
+        class="pb-10 shadow-lg rounded-xl"
+        style="
+          background-image: url(images/3.png);
+          background-size: contain;
+          background-position: -90px -50px;
+          background-repeat: no-repeat;
+        "
+      >
+        <h2
+          class="text-center md:text-[50px] text-[30px] font-bold text-[#014e86]"
+        >
+          Our Commitment
+        </h2>
+        <p class="w-[80%] mt-10 text-center mx-auto">
+          At Blissful Solutions, we believe in long-term partnerships rather
+          than limited short-term contracts. Our dedication to your
+          brand/business is unwavering, offering the flexibility you need to
+          thrive. By aligning with your unique needs and the latest marketing
+          trends, we elevate your brand identity to new heights.
+        </p>
+      </div>
+    </section>
+    <div class="w-full p-[50px]"></div>
+
+    <section class="relative overflow-hidden">
+      <img  src="./assets/images/4.png" alt="" class="absolute right-[-40px] w-[300px]" />
+      <div class="w-full h-[max-content] md:px-28 px-3 relative">
+        <div
+          class="flex justify-between xl:flex-nowrap flex-wrap items-center w-full"
+        >
+          <div class="relative text-center mx-auto">
+            <img  src="./assets/images/2.png" class="w-[600px]" alt="hero_img" />
+            <img
+               src="./assets/images/5.png"
+              class="absolute left-0 bottom-0 z-[-1] w-[150px]"
+              alt=""
+            />
+          </div>
+          <div class="xl:w-[800px]">
+            <h2
+              class="md:text-[50px] text-[30px] text-[#014e86] text-center md:text-start font-bold"
+            >
+              Mutual Engagement
+            </h2>
+            <p class="text-lg ms-7 flex gap-2 mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              <span>
+                <b>Value of Relationships:</b> Good and fair relationships are
+                important to us!</span
+              >
+            </p>
+            <p class="text-lg ms-7 flex gap-2 mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              <span>
+                <b>First Step:</b> Our first step towards understanding your
+                brand is mutual engagement.</span
+              >
+            </p>
+            <p class="text-lg ms-7 flex gap-2 mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              <span>
+                <b>Crafting Strategies:</b> We craft strategies that work best
+                for your business.</span
+              >
+            </p>
+            <p class="text-lg ms-7 flex gap-2 mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              <span>
+                <b>Utilizing Tools:</b> Utilizing acrylic signage boards and
+                comprehensive digital marketing solutions.</span
+              >
+            </p>
+            <p class="text-lg ms-7 flex gap-2 mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              <span>
+                <b>In-depth Understanding:</b> We delve into your brand
+                requirements.</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="w-full p-[50px]"></div>
+
+    <section class="relative overflow-hidden pb-28">
+      <img
+         src="./assets/images/3.png"
+        alt=""
+        class="absolute left-[-120px] top-0 w-[300px]"
+      />
+      <img
+         src="./assets/images/5.png"
+        alt=""
+        class="absolute right-[-20px] bottom-[-50px] w-[200px]"
+      />
+      <div class="w-full h-[max-content] md:px-28 px-3 relative">
+        <h2
+          class="text-center md:text-[50px] text-[30px] font-bold text-[#014e86]"
+        >
+          Growth Sprint Model
+        </h2>
+        <p class="w-[80%] mt-10 text-center mx-auto">
+          As the leading Digital Marketing Agency in Tricity, we implement a
+          growth sprint model that ensures a productive and rewarding
+          collaboration. Our approach includes: - Weekly Updates: Review
+          results, plan next steps. - Defining Tasks: Set new goals, plan
+          actions.
+        </p>
+      </div>
+      <div class="flex justify-center items-center flex-wrap gap-[50px]">
+        <div
+          class="w-[300px] mt-[70px] h-[300px] border border-[#014e86] rounded-lg shadow-lg p-9"
+        >
+          <h2 class="font-bold text-2xl text-[#014e86]">Weekly Updates</h2>
+          <img  src="./assets/images/8.png" alt="" class="w-[100px]" />
+          <p class="ms-3 text-xl font bold mt-2">- Review results</p>
+          <p class="ms-3 text-xl font bold mt-2">- Plan next steps</p>
+        </div>
+        <div
+          class="w-[300px] mt-[70px] h-[300px] border border-[#014e86] rounded-lg shadow-lg p-9"
+        >
+          <h2 class="font-bold text-2xl text-[#014e86]">Defining Tasks</h2>
+          <img  src="./assets/images/7.png" alt="" class="w-[100px]" />
+          <p class="ms-3 text-xl font bold mt-2">- Set new goals</p>
+          <p class="ms-3 text-xl font bold mt-2">- Plan actions</p>
+        </div>
+        <div
+          class="w-[300px] mt-[70px] h-[300px] border border-[#014e86] rounded-lg shadow-lg p-9"
+        >
+          <h2 class="font-bold text-lg text-[#014e86]">
+            Addressing Action Items
+          </h2>
+          <img  src="./assets/images/6.png" alt="" class="w-[100px]" />
+          <p class="ms-3 text-xl font bold mt-2">- Clarify queries</p>
+          <p class="ms-3 text-xl font bold mt-2">- Follow up</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="w-full p-[50px]"></div>
+
+    <section class="w-full h-[max-content] md:px-28 px-3 relative">
+      <div
+        class="pb-10 shadow-lg rounded-xl"
+        style="
+          background-image: url(images/4.png);
+          background-size: contain;
+          background-position: -300px -50px;
+          background-repeat: no-repeat;
+        "
+      >
+        <h2
+          class="text-center md:text-[50px] text-[30px] font-bold text-[#014e86]"
+        >
+          Experience
+        </h2>
+        <div class="w-full h-[max-content] md:px-28 px-3 relative">
+          <div
+            class="flex justify-between xl:flex-nowrap flex-wrap items-center w-full"
+          >
+            <div class="relative">
+              <img  src="./assets/images/20_years_of_success.png" class="w-[500px]" alt="hero_img" />
+              <img
+                 src="./assets/images/5.png"
+                class="absolute left-0 bottom-0 z-[-1] w-[150px]"
+                alt=""
+              />
+            </div>
+            <div class="xl:w-[800px]">
+              <h2
+                class="md:text-[30px] text-[30px] text-[#014e86] text-center md:text-start font-bold"
+              >
+			  20 years of Dedication and Experience
+              </h2>
+              <p class="text-sm  mt-3">
+				Our 20 years journey in our niche promises perfection as we connect the dots, bringing in all areas and avenues wherein your brand can rise and shine physically and digitally. We promise you perfection from buyer journey to integrated web experience, custom content to killer ad search print and digital campaigns.
+				Since its conception, Blissful Events and Solutions has been crafting state-of-the-art signage for businesses in the Tricity. Certainly, our story goes well beyond that. The founders have extensive experience in the signage industry, providing you with top-of-the-line signs for businesses of any size. Our comprehensive services include everything from- design, manufacturing to permitting, installation and maintenance. Our signage-making company takes pride in providing landmarks for businesses all across the city.
+				
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="w-full p-[50px]"></div>
+    <button 
+    id="toTopButton"
+    class="fixed right-4 bottom-4 bg-yellow-500 rounded-full w-10 h-10 p-2 opacity-0" 
+    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+    <footer class="py-6 px-3">
+      <div class="w-full p-4 py-8 rounded-lg bg-yellow-50">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="https://flowbite.com/" class="flex items-center">
+              <img
+                src="./assets/images/logo.png"
+                class="h-12 me-3"
+                alt="FlowBite Logo"
+              />
+            </a>
+            <p class="w-60 mt-3 text-gray-500 text-sm font-light">
+              Blissful Events and Solutions is one of Tricity’s fastest-growing
+              physical and digital marketing agencies. We’re focused on bringing
+              in growth.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Services
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="./why.html" class="hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Services</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Testimonials</a>
+                </li>
+                <li class="">
+                  <a href="./contact.html" class="hover:underline">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Follow us
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Twitter</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Facebook</a>
+                </li>
+                <li>
+                  <a href="" class="hover:underline">Instagram</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Legal
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2024 <a href="#" class="hover:underline">Blissful™</a>. All
+            Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 8 19"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook page</span>
+            </a>
+
+            <a href="#" class="text-gray-500 hover:text-gray-900 ms-5">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Twitter page</span>
+            </a>
+            <a href="" class="text-gray-500 hover:text-gray-900 ms-5">
+              <svg
+                class="w-6 h-6"
+                id="Layer_1"
+                style="enable-background: new 0 0 56.6934 56.6934"
+                version="1.1"
+                viewBox="0 0 56.6934 56.6934"
+                width="56.6934px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    d="M19.6671,25.7867c-0.0075,1.7935,0,3.5869,0.0076,5.3803c3.0067,0.098,6.0208,0.0527,9.0275,0.098   c-1.3262,6.6689-10.3989,8.8315-15.199,4.4761C8.5674,31.9206,8.801,23.5412,13.9327,19.992   c3.5869-2.8635,8.6884-2.1552,12.2752,0.324c1.4092-1.3036,2.7278-2.6977,4.0013-4.1445   c-2.984-2.3812-6.6462-4.0767-10.5421-3.8958c-8.1307-0.2713-15.6059,6.8497-15.7415,14.9805   c-0.52,6.6462,3.8506,13.1644,10.0222,15.5155c6.1489,2.3661,14.031,0.7535,17.957-4.77c2.5922-3.4889,3.1498-7.98,2.8484-12.1999   C29.7194,25.7641,24.6933,25.7716,19.6671,25.7867z"
+                  />
+                  <path
+                    d="M49.0704,25.7641c-0.0151-1.4996-0.0226-3.0067-0.0301-4.5062c-1.4996,0-2.9916,0-4.4836,0   c-0.0151,1.4996-0.0301,2.9991-0.0377,4.5062c-1.5071,0.0075-3.0067,0.0151-4.5062,0.0302c0,1.4995,0,2.9915,0,4.4836   c1.4995,0.0151,3.0066,0.0302,4.5062,0.0452c0.0151,1.4996,0.0151,2.9991,0.0302,4.4987c1.4996,0,2.9916,0,4.4911,0   c0.0075-1.4996,0.015-2.9991,0.0301-4.5062c1.5071-0.0151,3.0067-0.0226,4.5062-0.0377c0-1.4921,0-2.9916,0-4.4836   C52.0771,25.7792,50.57,25.7792,49.0704,25.7641z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="" async defer></script>
+    <script src="./assets/js/script1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3ab55db2b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

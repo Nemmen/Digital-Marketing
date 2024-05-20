@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    .scrool {
+      scrollbar-width: thin;
+      scrollbar-color: #f79900 #f5f5f5;
+    }
+  </style>
+  <body class="bg-[#f5f5f5]">
+    <header class="lg:block md:block sm:hidden hidden">
+      <div class="bg-yellow-300 text-white flex justify-between px-12 py-2">
+        <div>
+          <div class="lg:flex gap-x-4">
+            <div class="">
+              <i class="fa-solid fa-headset text-black/85 pe-2"></i
+              ><a
+                href=""
+                class="text-sm hover:text-black/85 transform duration-150 text-black/50"
+                >blissful.eventsolutions@gmail.com</a
+              >
+            </div>
+            <div class="">
+              <i class="fa-solid fa-square-phone text-black/85"></i>
+              <a
+                href=""
+                class="text-sm hover:text-black/85 transform duration-150 text-black/50"
+                >+91 9914021087</a
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex gap-x-4">
+            <div><i class="fa-brands fa-facebook-f text-black/85"></i></div>
+            <div><i class="fa-brands fa-x-twitter text-black/85"></i></div>
+            <div><i class="fa-brands fa-google-plus-g text-black/85"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav
+    class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
+  >
+    <div>
+      <a href="#"
+        ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
+      /></a>
+    </div>
+    <div>
+      <ul
+        class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
+      >
+        <li><a href="/" class="font-medium">Home</a></li>
+        <li><a href="./why.html" class="font-medium">About</a></li>
+        <li class="group relative">
+          <a href="#" class="font-medium">Services</a><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+          <div class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md  shadow-md">
+              <div class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2">
+                  <div class="text-center text-sm px-2 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Digital Marketing</a></div>
+                  <div class="text-center text-sm px-2 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Acrylic Signage</a></div>
+                  <div class="text-center text-sm px-2 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
+              </div>
+          </div>
+      </li>
+        
+        <li><a href="./contact.html" class="font-medium">Contact</a></li>
+        <li><a href="#" class="font-medium">Blogs</a></li>
+      </ul>
+    </div>
+    <div class="lg:hidden md:hidden sm:block block toggle">
+      <img
+        src="./assets//images/menu-icon.png"
+        alt=""
+        class="w-12 h-12 object-fit"
+      />
+    </div>
+    <div class="lg:hidden md:hidden sm:hidden hidden close">
+      <img
+        src="./assets//images/toggle-close.png"
+        alt=""
+        class="w-8 h-8 object-fit"
+      />
+    </div>
+  </nav>
+  <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
+      <div class="flex flex-col justify-center gap-y-6 px-5">
+          <div class="text-center py-3 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Acrylic Signage</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Digital Marketing</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
+      </div>
+  </div> -->
+
+  
+  <div class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md">
+      <div class="flex flex-col justify-center gap-y-6">
+          <div class="text-center py-3 border-b-2"><a href="/" class="font-medium">Home</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./why.html" class="font-medium">About</a></div>
+          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Services</a></div>
+          <div class="text-center py-3 border-b-2"><a href="./contact.html" class="font-medium">Contact</a></div>
+          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Blogs</a></div>
+      </div>
+  </div>
+    <section class="bg-gray-200 pt-20 pb-40">
+      <div class="w-full h-[max-content] md:px-28 px-3 pt-20 relative">
+        <img
+          src="./assets/images/3.png"
+          class="absolute left-[-99px] md:left-[-69px] top-0 z-[2] w-[200px]"
+          alt=""
+        />
+        <h1 class="text-center font-bold text-[50px] text-[#014e86]">
+          Acrylic Signage
+        </h1>
+        <p class="text-center text-sm mt-4">
+          Acrylic Signage gives a unique recognition to your brand or business.
+          They represent the personality of your business while making it stand
+          out among others. Acrylic Sign Boards provide a sophisticated
+          high-tech look to your showroom/office space and is the most modern
+          marketing method to showcase your information. We provide you with the
+          Best Acrylic Signage work in the Tricity to help you stand ahead of
+          your competitors.
+        </p>
+      </div>
+    </section>
+    <div class="w-full p-[50px]"></div>
+    <section>
+      <div class="w-full h-[max-content] md:px-28 px-3 relative">
+        <img
+          src="./assets/images/5.png"
+          class="absolute left-[-99px] md:left-[-69px] top-0 z-[-1] w-[200px]"
+          alt=""
+        />
+        <div
+          class="flex justify-between xl:flex-nowrap flex-wrap items-center w-full"
+        >
+          <div class="xl:w-[800px]">
+            <h2
+              class="md:text-[50px] text-[30px] text-center md:text-start font-bold"
+            >
+              Why <span class="text-[#014e86]">Acrylic Signage</span>
+              <span class="text-[#014e86] md:text-[60px]">?</span>
+            </h2>
+
+            <p class="text-sm ms-7 mt-3">
+              <span class="text-[16px] font-bold">Acrylic signs</span>
+              add a glossy finish to your boards while providing durability.
+              They are heat resistant, waterproof, and weatherproof signs made
+              of high-quality cast acrylic. This Acrylic material allows light
+              to permeate through and is therefore used for making innovative
+              methods for light effects like smudge, smoothness, and clarity.
+              Our best-in-class Acrylic signage boards in Tricity offer you a
+              one-time investment method for making your sophisticated brand
+              identity. Moreover, they are highly customizable and can be
+              furnished in a variety of
+              <span class="text-[#014e86]">colors and combinations.</span>
+            </p>
+            <br>
+            <button
+            class="before:ease lg:ms-8 relative h-12 w-40 overflow-hidden border border-yellow-500 text-yellow-600 shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-yellow-500 before:duration-300 hover:text-white hover:shadow-yellow-500 hover:before:h-64 hover:before:-translate-y-32"
+          >
+            <span class="relative z-10">Learn More</span>
+          </button>
+          </div>
+          <div class="relative text-center">
+            <img
+              src="./assets/images/5.png"
+              class="absolute right-0 bottom-0 z-[-1] w-[150px]"
+              alt=""
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              data-name="Layer 1"
+              class="w-[300px] mx-auto mt-7 md:mt-0 md:ms-0 ms-5"
+              height=""
+              viewBox="0 0 934.38945 558.23049"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect
+                x="33.98612"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="107.35429"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="180.72245"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="254.09062"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="327.45879"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="400.82696"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="547.56329"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="33.98612"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="107.35429"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="254.09062"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="327.45879"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="400.82696"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="547.56329"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="33.98612"
+                y="128.89959"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="107.35429"
+                y="128.89959"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="180.72245"
+                y="128.89959"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="254.09062"
+                y="128.89959"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="327.45879"
+                y="128.89959"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="400.82696"
+                y="128.89959"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="474.19513"
+                y="128.89959"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="33.98612"
+                y="175.75657"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="107.35429"
+                y="175.75657"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="400.82696"
+                y="175.75657"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="33.98612"
+                y="222.61355"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="107.35429"
+                y="222.61355"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="180.72245"
+                y="222.61355"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="254.09062"
+                y="222.61355"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="327.45879"
+                y="222.61355"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="33.98612"
+                y="269.47053"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="107.35429"
+                y="269.47053"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="180.72245"
+                y="269.47053"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="254.09062"
+                y="269.47053"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="33.98612"
+                y="317.92686"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="107.35429"
+                y="317.92686"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <rect
+                x="180.72245"
+                y="317.92686"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="180.72245"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="474.19513"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="327.45879"
+                y="175.75657"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+              />
+              <rect
+                x="254.09062"
+                y="175.75657"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="180.72245"
+                y="175.75657"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <circle cx="11.19543" cy="59.9755" r="11.19543" fill="#3f3d56" />
+              <circle cx="70.97847" cy="11.19543" r="11.19543" fill="#e6e6e6" />
+              <circle
+                cx="144.34664"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="217.71481"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="291.08298"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="364.45114"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="437.81931"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="511.18748"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="584.55565"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="657.92381"
+                cy="11.19543"
+                r="11.19543"
+                fill="#e6e6e6"
+              />
+              <circle
+                cx="11.19543"
+                cy="106.70418"
+                r="11.19543"
+                fill="#3f3d56"
+              />
+              <circle
+                cx="11.19543"
+                cy="153.56116"
+                r="11.19543"
+                fill="#3f3d56"
+              />
+              <circle
+                cx="11.19543"
+                cy="200.41814"
+                r="11.19543"
+                fill="#3f3d56"
+              />
+              <circle
+                cx="11.19543"
+                cy="247.27512"
+                r="11.19543"
+                fill="#3f3d56"
+              />
+              <circle cx="11.19543" cy="294.1321" r="11.19543" fill="#3f3d56" />
+              <circle
+                cx="11.19543"
+                cy="342.58843"
+                r="11.19543"
+                fill="#3f3d56"
+              />
+              <rect
+                x="474.19513"
+                y="82.04261"
+                width="73.98471"
+                height="49.32314"
+                fill="#e6e6e6"
+              />
+              <rect
+                x="620.93146"
+                y="35.18563"
+                width="73.98471"
+                height="49.32314"
+                fill="#f79900"
+                opacity="0.8"
+              />
+              <polygon
+                points="934.007 543.231 676.269 543.231 676.269 541.125 934.389 541.125 934.007 543.231"
+                fill="#3f3d56"
+              />
+              <polygon
+                points="763 538 776.5 536.5 776.5 512.5 762 513 763 538"
+                fill="#ffb8b8"
+              />
+              <polygon
+                points="833 538 818.5 536.5 821 513 837.5 512.5 833 538"
+                fill="#ffb8b8"
+              />
+              <path
+                d="M889.30527,687.38475l21.66932-.60632c13.57855-70.97107,26.81952-136.61383,48.33068-191.39368l-9,191h23l35-214-80-8C901.5117,535.18727,889.35215,609.73577,889.30527,687.38475Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+              <path
+                d="M883.2544,728.31775h0a12.16369,12.16369,0,0,0,13.61581-3.50978l5.435-6.42323,10-5-1.59459-16.7433a1.43271,1.43271,0,0,0-2.64643-.615l-5.759,9.35834c-2.12393-7.65358-5.79267-11.63151-11.54-10.66358a11.94519,11.94519,0,0,0-8.389,6.246l-5.50143,10.21694A12.16369,12.16369,0,0,0,883.2544,728.31775Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+              <path
+                d="M977.35615,728.31775h0a12.16369,12.16369,0,0,1-13.61581-3.50978l-5.43505-6.42323-10-5,1.5946-16.7433a1.43271,1.43271,0,0,1,2.64643-.615l5.759,9.35834c2.12394-7.65358,5.79268-11.63151,11.54-10.66358a11.94519,11.94519,0,0,1,8.389,6.246l5.50143,10.21694A12.16369,12.16369,0,0,1,977.35615,728.31775Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+              <circle cx="836" cy="101" r="24" fill="#ffb8b8" />
+              <rect
+                x="953.30527"
+                y="284.38475"
+                width="30"
+                height="32"
+                transform="translate(1803.80527 429.88475) rotate(-180)"
+                fill="#ffb8b8"
+              />
+              <path
+                d="M931.80527,464.88475c25.1283,5.889,51.69935,14.41428,69,6l-.5-155.5a31.22187,31.22187,0,0,1-17-15l-12,10-18-11c-6.25695,7.56043-14.663,15.51374-24.5,18.5Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#e6e6e6"
+              />
+              <path
+                d="M972.30527,438.38475c-4.30527,42.61525,15.78858,39.79956,42,39-10.90185-54.36139-10.53759-105.85644,3-154-13.67724-6.55792-25.68908-14.14044-34-24,.40823,1.07889-.8611.42606-.5,1.5,8.48667,25.23978,5.64109,50.84556-10.5,73.5Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+              <path
+                d="M1020.80527,480.88475l-6.90732,13.81466a10.72643,10.72643,0,0,0,7.18207,15.24875h0a10.72643,10.72643,0,0,0,13.13314-10.1167l.59208-18.94671v-15h-14Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#ffb8b8"
+              />
+              <path
+                d="M974.30527,439.38475c-.9851,32.54591-4.31363,37.45464-52,36,10.90186-54.36139,10.5376-105.85644-3-154,13.67725-6.55792,25.68909-14.14044,34-24-.56473,1.4925.92651,2.00493.5,3.5-7.12759,24.98541,4.62222,51.21511,20.5,73.5Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+              <path
+                d="M914.80527,476.88475l6.90733,13.81466a10.72643,10.72643,0,0,1-7.18207,15.24875h0a10.72643,10.72643,0,0,1-13.13314-10.1167l-.59209-18.94671v-15h14Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#ffb8b8"
+              />
+              <path
+                d="M970.12573,230.9142h0a25.33562,25.33562,0,0,1,11.57493,3.40794c.81123.47211.43626,2.17467,1.186,2.72993.94422.69928,2.99435.27462,3.83049,1.09369a25.39013,25.39013,0,0,1,7.55034,20.45651l-1.33129,13.23666-3.14056-3.43465a32.73658,32.73658,0,0,0-21.832-10.71812q-.53424-.03631-1.0704-.057l2.41616-4.22824-4.19915,4.19915a40.88741,40.88741,0,0,0-5.72092.46568l3.21312-5.623-6.16512,6.16512-.00048.00026a16.48352,16.48352,0,0,0-11.51772,9.394l-.68457,1.51771-.76691-12.62795A25.45331,25.45331,0,0,1,970.12573,230.9142Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+              <ellipse
+                cx="859.49943"
+                cy="100.00213"
+                rx="1.91627"
+                ry="4.55114"
+                fill="#ffb8b8"
+              />
+              <ellipse
+                cx="811.59269"
+                cy="98.56493"
+                rx="1.91627"
+                ry="4.55114"
+                fill="#ffb8b8"
+              />
+              <path
+                d="M917.80527,470.88475l-23.5,1.5,12-131.87693a22.70058,22.70058,0,0,1,16.46425-21.82714l4.53575-1.29593C933.82566,371.57415,926.52305,423.45763,917.80527,470.88475Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+              <path
+                d="M1018.80527,473.88475l18,1-6.5-132.37693a22.70057,22.70057,0,0,0-16.46424-21.82714l-4.53576-1.29593C1002.78489,373.57415,1010.0875,426.45763,1018.80527,473.88475Z"
+                transform="translate(-132.80527 -170.88475)"
+                fill="#2f2e41"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="w-full p-[50px]"></div>
+    <section class="relative overflow-hidden pb-28">
+      <img
+        src="./assets/images/4.png"
+        alt=""
+        class="absolute right-[-20px] bottom-[-50px] w-[300px]"
+      />
+      <img
+        src="./assets/images/5.png"
+        alt=""
+        class="absolute left-[0px] top-[90px] w-[200px]"
+      />
+      <div class="w-full h-[max-content] md:px-28 px-3 relative">
+        <h2
+          class="text-center md:text-[40px] text-[30px] font-bold text-[#014e86]"
+        >
+          Where can you use Acrylic Signage boards?
+        </h2>
+        <p class="w-[80%] mt-10 text-center mx-auto">
+          Acrylic signage board provides a glossy colorful identity to your
+          brand name while displaying information most innovatively. Make the
+          best use of it for making –
+        </p>
+      </div>
+      <div
+        class="flex justify-center items-center w-[70%] mx-auto pb-10 scrool overflow-x-scroll gap-[50px]"
+      >
+        <div>
+          <div
+            class="w-[250px]  ms-[600px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box1.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+		  <p class="text-center mt-3 ms-[600px] font-bold text-2xl">Boxes</p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box2.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+		  <p class="text-center mt-3 font-bold text-2xl">Brochure holders</p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box3.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+		  <p class="text-center mt-3 font-bold text-2xl">Signs and easels, all-in-one</p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box4.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+		  <p class="text-center mt-3 font-bold text-2xl">Point-of-sale products</p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box5.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+		  <p class="text-center mt-3 font-bold text-2xl">Menu boards</p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box6.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+		  <p class="text-center mt-3 font-bold text-2xl">Exhibition/Trade shows</p>
+        </div>
+       
+      </div>
+      <div
+        class="flex justify-center items-center w-[70%] mx-auto pb-10 scrool overflow-x-scroll gap-[20px]"
+      >
+	  <div class="">
+		<div
+		  class="w-[250px] mt-[70px] ms-[500px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+		  style="
+			background-image: url(./assets/images/box7.jpg);
+			background-size: cover;
+			background-position: center;
+		  "
+		></div>
+		<p class="text-center ms-[500px] mt-3 font-bold text-2xl">Retail signs</p>
+	  </div>
+	  <div>
+		<div
+		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+		  style="
+			background-image: url(./assets/images/box8.jpg);
+			background-size: cover;
+			background-position: center;
+		  "
+		></div>
+		<p class="text-center mt-3 font-bold text-2xl">Restaurant signs</p>
+	  </div>
+	  <div>
+		<div
+		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+		  style="
+			background-image: url(./assets/images/box9.jpg);
+			background-size: cover;
+			background-position: center;
+		  "
+		></div>
+		<p class="text-center mt-3 font-bold text-2xl">Nameplates and name badges</p>
+	  </div>
+	  <div>
+		<div
+		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+		  style="
+			background-image: url(./assets/images/box10.jpg);
+			background-size: cover;
+			background-position: center;
+		  "
+		></div>
+		<p class="text-center mt-3 font-bold text-2xl">Directional and informational signs</p>
+	  </div>
+	  <div>
+		<div
+		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+		  style="
+			background-image: url(./assets/images/box11.jpg);
+			background-size: cover;
+			background-position: center;
+		  "
+		></div>
+		<p class="text-center mt-3 font-bold text-2xl">Showroom signs</p>
+	  </div>
+	  <div>
+		<div
+		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+		  style="
+			background-image: url(./assets/images/box12.jpg);
+			background-size: cover;
+			background-position: center;
+		  "
+		></div>
+		<p class="text-center mt-3 font-bold text-2xl">Office building signs</p>
+	  </div>
+	</div>
+    </section>
+	<div class="w-full p-[50px]"></div>
+	<section class="relative overflow-hidden pb-28">
+		<img
+		  src="./assets/images/3.png"
+		  alt=""
+		  class="absolute left-[-120px] top-0 w-[300px]"
+		/>
+		<img
+		  src="./assets/images/5.png"
+		  alt=""
+		  class="absolute right-[-20px] bottom-[-50px] w-[200px]"
+		/>
+		<div class="w-full h-[max-content] md:px-28 px-3 relative">
+		 
+		<div class="flex justify-center items-center flex-wrap gap-[50px]">
+		  <div
+			class="w-[500px] mt-[70px] h-[max-content]  border border-[#014e86] rounded-lg shadow-lg p-9"
+		  >
+			<h2 class="font-bold text-2xl text-[#014e86]">Size and Variations</h2>
+			
+			<p class="ms-3 text-sm font bold mt-2">Acrylic signs are one of the lightweight boards that are durable and attractive too. Acrylic signs can be made in customizable variations of transparent, opaque, and router-cut variations. Contact us for the best Acrylic signage in Tricity that speaks for itself.</p>
+			
+		  </div>
+		  <div
+			class="w-[700px] mt-[70px] h-[max-content] border border-[#014e86] rounded-lg shadow-lg p-9"
+		  >
+			<h2 class="font-bold text-2xl text-[#014e86]">Add Visual Attraction with Acrylic Sign Ideas</h2>
+		  
+			<p class="ms-3 font text-sm bold mt-2">Highly durable attractive Acrylic sign boards add a unique visual attraction element to your brands. The glossy finish with a variety of colors is used for making high-quality illuminated, architectural, exhibition, and point-of-sale signs. Now, Increase the visual effectiveness of your acrylic signs by:</p>
+			<p class=" ms-7 flex gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Adding stripes, borders, and elements.
+			  </p>
+			<p class=" ms-7 flex  gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Applying multiple lettering colors and fonts
+			  </p>
+			<p class="ms-7 flex gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Incorporating logo and graphic symbols
+			  </p>
+			<p class=" ms-7 flex gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Using multiple layers of acrylic to enhance the image
+			  </p>
+			<p class=" ms-7 flex gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Forming a three-dimensional effect.
+			  </p>
+			<p class="ms-7 flex gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Giving the perception of depth to the finished product—using clear acrylic and applying a background color on the reverse side
+			  </p>
+			<p class=" ms-7 flex gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Designing custom applications
+			  </p>
+			<p class=" ms-7 flex gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Using non-glare acrylic to reduce glare problems
+			  </p>
+		  </div>
+		 
+		</div>
+	  </section>
+	  <div class="w-full p-[50px]"></div>
+
+	  <section class="w-full h-[max-content] md:px-28 px-3 relative">
+		<div
+		  class="pb-10 shadow-lg rounded-xl"
+		  style="
+			background-image: url(./assets/images/5.png);
+			background-size: contain;
+			background-position: -190px -50px;
+			background-repeat: no-repeat;
+		  "
+		>
+		  <h2
+			class="text-center md:text-[50px] text-[30px] font-bold text-[#014e86]"
+		  >
+		  Installation
+		  </h2>
+		  <p class="w-[80%] mt-10 text-center mx-auto">
+			Acrylic signs are the most durable signboards that can be installed in several ways. Get the best in Tricity Acrylic signage at the most affordable range. Here are a few easy ways in which they can be installed-
+		  </p>
+		 <div class="flex gap-4 justify-center items-center align-center">
+			<p class=" ms-7 flex justify-center  gap-2 mt-7">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Self-support method
+			  </p>
+			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Hanging
+			  </p>
+			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Velcro®
+			  </p>
+			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Glue
+			  </p>
+			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Double-sided tape
+			  </p>
+			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
+				<svg
+				  xmlns="http://www.w3.org/2000/svg"
+				  fill="none"
+				  viewBox="0 0 24 24"
+				  stroke-width="1.5"
+				  stroke="currentColor"
+				  class="w-6 h-6"
+				>
+				  <path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+				  />
+				</svg>
+				Suction cups
+			  </p>
+		 </div>
+		 <p class="text-center mt-20 text-semibold">Contact Us for the best Acrylic Signage work in the Tricity for more information on your product.</p>
+		</div>
+	  </section>
+    <button 
+    id="toTopButton"
+    class="fixed right-4 bottom-4 bg-yellow-500 rounded-full w-10 h-10 p-2 opacity-0" 
+    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+    <footer class="py-6 px-3">
+      <div class="w-full p-4 py-8 rounded-lg bg-yellow-50">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="https://flowbite.com/" class="flex items-center">
+              <img
+                src="./assets/images/logo.png"
+                class="h-12 me-3"
+                alt="FlowBite Logo"
+              />
+            </a>
+            <p class="w-60 mt-3 text-gray-500 text-sm font-light">
+              Blissful Events and Solutions is one of Tricity’s fastest-growing
+              physical and digital marketing agencies. We’re focused on bringing
+              in growth.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Services
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="./why.html" class="hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Services</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Testimonials</a>
+                </li>
+                <li class="">
+                  <a href="./contact.html" class="hover:underline">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Follow us
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Twitter</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Facebook</a>
+                </li>
+                <li>
+                  <a href="" class="hover:underline">Instagram</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Legal
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2024 <a href="#" class="hover:underline">Blissful™</a>. All
+            Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 8 19"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook page</span>
+            </a>
+
+            <a href="#" class="text-gray-500 hover:text-gray-900 ms-5">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Twitter page</span>
+            </a>
+            <a href="" class="text-gray-500 hover:text-gray-900 ms-5">
+              <svg
+                class="w-6 h-6"
+                id="Layer_1"
+                style="enable-background: new 0 0 56.6934 56.6934"
+                version="1.1"
+                viewBox="0 0 56.6934 56.6934"
+                width="56.6934px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    d="M19.6671,25.7867c-0.0075,1.7935,0,3.5869,0.0076,5.3803c3.0067,0.098,6.0208,0.0527,9.0275,0.098   c-1.3262,6.6689-10.3989,8.8315-15.199,4.4761C8.5674,31.9206,8.801,23.5412,13.9327,19.992   c3.5869-2.8635,8.6884-2.1552,12.2752,0.324c1.4092-1.3036,2.7278-2.6977,4.0013-4.1445   c-2.984-2.3812-6.6462-4.0767-10.5421-3.8958c-8.1307-0.2713-15.6059,6.8497-15.7415,14.9805   c-0.52,6.6462,3.8506,13.1644,10.0222,15.5155c6.1489,2.3661,14.031,0.7535,17.957-4.77c2.5922-3.4889,3.1498-7.98,2.8484-12.1999   C29.7194,25.7641,24.6933,25.7716,19.6671,25.7867z"
+                  />
+                  <path
+                    d="M49.0704,25.7641c-0.0151-1.4996-0.0226-3.0067-0.0301-4.5062c-1.4996,0-2.9916,0-4.4836,0   c-0.0151,1.4996-0.0301,2.9991-0.0377,4.5062c-1.5071,0.0075-3.0067,0.0151-4.5062,0.0302c0,1.4995,0,2.9915,0,4.4836   c1.4995,0.0151,3.0066,0.0302,4.5062,0.0452c0.0151,1.4996,0.0151,2.9991,0.0302,4.4987c1.4996,0,2.9916,0,4.4911,0   c0.0075-1.4996,0.015-2.9991,0.0301-4.5062c1.5071-0.0151,3.0067-0.0226,4.5062-0.0377c0-1.4921,0-2.9916,0-4.4836   C52.0771,25.7792,50.57,25.7792,49.0704,25.7641z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+	  <div class="w-full p-[50px]"></div>
+
+    <script src="" async defer></script>
+    <script src="./assets/js/script1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3ab55db2b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
