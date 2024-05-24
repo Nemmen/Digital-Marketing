@@ -9,7 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+  <style>
+    * {
+      font-family: "Work Sans", sans-serif;
+      font-size: 18px;
+    }
+    
+    </style>
   <body>
     <header class="lg:block md:block sm:hidden hidden">
       <div class="bg-yellow-300 text-white flex justify-between px-12 py-2">
@@ -43,50 +56,65 @@
       </div>
     </header>
     <nav
-    class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
-  >
-    <div>
-      <a href="#"
-        ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
-      /></a>
-    </div>
-    <div>
-      <ul
-        class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
-      >
-        <li><a href="/" class="font-medium">Home</a></li>
-        <li><a href="./why.html" class="font-medium">About</a></li>
-        <li class="group relative">
-          <a href="#" class="font-medium">Services</a><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
-          <div class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md  shadow-md">
-              <div class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2">
-                  <div class="text-center text-sm px-2 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Digital Marketing</a></div>
-                  <div class="text-center text-sm px-2 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Acrylic Signage</a></div>
-                  <div class="text-center text-sm px-2 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
+      class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
+    >
+      <div>
+        <a href="#"
+          ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
+        /></a>
+      </div>
+      <div>
+        <ul
+          class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
+        >
+          <li><a href="/" class="font-medium">Home</a></li>
+          <li><a href="./why.html" class="font-medium">About</a></li>
+          <li class="group relative">
+            <a href="#" class="font-medium">Services</a
+            ><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+            <div
+              class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md shadow-md"
+            >
+              <div
+                class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2"
+              >
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="/Digital Marketing.html" class="font-medium"
+                    >Digital Marketing</a
+                  >
+                </div>
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="./Acrylic Signage.html" class="font-medium"
+                    >Acrylic Signage</a
+                  >
+                </div>
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="./Printing.html" class="font-medium">Printing</a>
+                </div>
               </div>
-          </div>
-      </li>
-        
-        <li><a href="./contact.html" class="font-medium">Contact</a></li>
-        <li><a href="#" class="font-medium">Blogs</a></li>
-      </ul>
-    </div>
-    <div class="lg:hidden md:hidden sm:block block toggle">
-      <img
-        src="./assets//images/menu-icon.png"
-        alt=""
-        class="w-12 h-12 object-fit"
-      />
-    </div>
-    <div class="lg:hidden md:hidden sm:hidden hidden close">
-      <img
-        src="./assets//images/toggle-close.png"
-        alt=""
-        class="w-8 h-8 object-fit"
-      />
-    </div>
-  </nav>
-  <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
+            </div>
+          </li>
+
+          <li><a href="./contact.html" class="font-medium">Contact</a></li>
+          <li><a href="#" class="font-medium">Blogs</a></li>
+        </ul>
+      </div>
+      <div class="lg:hidden md:hidden sm:block block toggle">
+        <img
+          src="./assets//images/menu-icon.png"
+          alt=""
+          class="w-12 h-12 object-fit"
+        />
+      </div>
+      <div class="lg:hidden md:hidden sm:hidden hidden close">
+        <img
+          src="./assets//images/toggle-close.png"
+          alt=""
+          class="w-8 h-8 object-fit"
+        />
+      </div>
+    </nav>
+    <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
       <div class="flex flex-col justify-center gap-y-6 px-5">
           <div class="text-center py-3 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Acrylic Signage</a></div>
           <div class="text-center py-3 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Digital Marketing</a></div>
@@ -94,16 +122,27 @@
       </div>
   </div> -->
 
-  
-  <div class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md">
+    <div
+      class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md"
+    >
       <div class="flex flex-col justify-center gap-y-6">
-          <div class="text-center py-3 border-b-2"><a href="/" class="font-medium">Home</a></div>
-          <div class="text-center py-3 border-b-2"><a href="./why.html" class="font-medium">About</a></div>
-          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Services</a></div>
-          <div class="text-center py-3 border-b-2"><a href="./contact.html" class="font-medium">Contact</a></div>
-          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Blogs</a></div>
+        <div class="text-center py-3 border-b-2">
+          <a href="/" class="font-medium">Home</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="./why.html" class="font-medium">About</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="#" class="font-medium">Services</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="./contact.html" class="font-medium">Contact</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="#" class="font-medium">Blogs</a>
+        </div>
       </div>
-  </div>
+    </div>
     <section class="bg-gray-200 pt-20 pb-40">
       <div class="w-full h-[max-content] md:px-28 px-3 pt-20 relative">
         <img
@@ -370,12 +409,13 @@
     </section>
     <div class="w-full p-[50px]"></div>
     <div class="w-full p-[50px]"></div>
-    <button 
-    id="toTopButton"
-    class="fixed right-4 bottom-4 bg-yellow-500 rounded-full w-10 h-10 p-2 opacity-0" 
-    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
+    <button
+      id="toTopButton"
+      class="fixed right-4 bottom-4 bg-yellow-500 rounded-full w-10 h-10 p-2 opacity-0"
+      onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <footer class="py-6 px-3">
       <div class="w-full p-4 py-8 rounded-lg bg-yellow-50">
         <div class="md:flex md:justify-between">

@@ -8,8 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <style>
+    * {
+      font-family: "Work Sans", sans-serif;
+      font-size: 18px;
+    }
+
     .scrool {
       scrollbar-width: thin;
       scrollbar-color: #f79900 #f5f5f5;
@@ -48,50 +59,65 @@
       </div>
     </header>
     <nav
-    class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
-  >
-    <div>
-      <a href="#"
-        ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
-      /></a>
-    </div>
-    <div>
-      <ul
-        class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
-      >
-        <li><a href="/" class="font-medium">Home</a></li>
-        <li><a href="./why.html" class="font-medium">About</a></li>
-        <li class="group relative">
-          <a href="#" class="font-medium">Services</a><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
-          <div class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md  shadow-md">
-              <div class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2">
-                  <div class="text-center text-sm px-2 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Digital Marketing</a></div>
-                  <div class="text-center text-sm px-2 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Acrylic Signage</a></div>
-                  <div class="text-center text-sm px-2 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
+      class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
+    >
+      <div>
+        <a href="#"
+          ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
+        /></a>
+      </div>
+      <div>
+        <ul
+          class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
+        >
+          <li><a href="/" class="font-medium">Home</a></li>
+          <li><a href="./why.html" class="font-medium">About</a></li>
+          <li class="group relative">
+            <a href="#" class="font-medium">Services</a
+            ><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+            <div
+              class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md shadow-md"
+            >
+              <div
+                class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2"
+              >
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="/Digital Marketing.html" class="font-medium"
+                    >Digital Marketing</a
+                  >
+                </div>
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="./Acrylic Signage.html" class="font-medium"
+                    >Acrylic Signage</a
+                  >
+                </div>
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="./Printing.html" class="font-medium">Printing</a>
+                </div>
               </div>
-          </div>
-      </li>
-        
-        <li><a href="./contact.html" class="font-medium">Contact</a></li>
-        <li><a href="#" class="font-medium">Blogs</a></li>
-      </ul>
-    </div>
-    <div class="lg:hidden md:hidden sm:block block toggle">
-      <img
-        src="./assets//images/menu-icon.png"
-        alt=""
-        class="w-12 h-12 object-fit"
-      />
-    </div>
-    <div class="lg:hidden md:hidden sm:hidden hidden close">
-      <img
-        src="./assets//images/toggle-close.png"
-        alt=""
-        class="w-8 h-8 object-fit"
-      />
-    </div>
-  </nav>
-  <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
+            </div>
+          </li>
+
+          <li><a href="./contact.html" class="font-medium">Contact</a></li>
+          <li><a href="#" class="font-medium">Blogs</a></li>
+        </ul>
+      </div>
+      <div class="lg:hidden md:hidden sm:block block toggle">
+        <img
+          src="./assets//images/menu-icon.png"
+          alt=""
+          class="w-12 h-12 object-fit"
+        />
+      </div>
+      <div class="lg:hidden md:hidden sm:hidden hidden close">
+        <img
+          src="./assets//images/toggle-close.png"
+          alt=""
+          class="w-8 h-8 object-fit"
+        />
+      </div>
+    </nav>
+    <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
       <div class="flex flex-col justify-center gap-y-6 px-5">
           <div class="text-center py-3 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Acrylic Signage</a></div>
           <div class="text-center py-3 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Digital Marketing</a></div>
@@ -99,16 +125,27 @@
       </div>
   </div> -->
 
-  
-  <div class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md">
+    <div
+      class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md"
+    >
       <div class="flex flex-col justify-center gap-y-6">
-          <div class="text-center py-3 border-b-2"><a href="/" class="font-medium">Home</a></div>
-          <div class="text-center py-3 border-b-2"><a href="./why.html" class="font-medium">About</a></div>
-          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Services</a></div>
-          <div class="text-center py-3 border-b-2"><a href="./contact.html" class="font-medium">Contact</a></div>
-          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Blogs</a></div>
+        <div class="text-center py-3 border-b-2">
+          <a href="/" class="font-medium">Home</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="./why.html" class="font-medium">About</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="#" class="font-medium">Services</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="./contact.html" class="font-medium">Contact</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="#" class="font-medium">Blogs</a>
+        </div>
       </div>
-  </div>
+    </div>
     <section class="bg-gray-200 pt-20 pb-40">
       <div class="w-full h-[max-content] md:px-28 px-3 pt-20 relative">
         <img
@@ -162,12 +199,12 @@
               furnished in a variety of
               <span class="text-[#014e86]">colors and combinations.</span>
             </p>
-            <br>
+            <br />
             <button
-            class="before:ease lg:ms-8 relative h-12 w-40 overflow-hidden border border-yellow-500 text-yellow-600 shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-yellow-500 before:duration-300 hover:text-white hover:shadow-yellow-500 hover:before:h-64 hover:before:-translate-y-32"
-          >
-            <span class="relative z-10">Learn More</span>
-          </button>
+              class="before:ease lg:ms-8 relative h-12 w-40 overflow-hidden border border-yellow-500 text-yellow-600 shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-yellow-500 before:duration-300 hover:text-white hover:shadow-yellow-500 hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Learn More</span>
+            </button>
           </div>
           <div class="relative text-center">
             <img
@@ -697,14 +734,14 @@
       >
         <div>
           <div
-            class="w-[250px]  ms-[600px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            class="w-[250px] ms-[600px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
             style="
               background-image: url(./assets/images/box1.jpg);
               background-size: cover;
               background-position: center;
             "
           ></div>
-		  <p class="text-center mt-3 ms-[600px] font-bold text-2xl">Boxes</p>
+          <p class="text-center mt-3 ms-[600px] font-bold text-2xl">Boxes</p>
         </div>
         <div>
           <div
@@ -715,7 +752,7 @@
               background-position: center;
             "
           ></div>
-		  <p class="text-center mt-3 font-bold text-2xl">Brochure holders</p>
+          <p class="text-center mt-3 font-bold text-2xl">Brochure holders</p>
         </div>
         <div>
           <div
@@ -726,7 +763,9 @@
               background-position: center;
             "
           ></div>
-		  <p class="text-center mt-3 font-bold text-2xl">Signs and easels, all-in-one</p>
+          <p class="text-center mt-3 font-bold text-2xl">
+            Signs and easels, all-in-one
+          </p>
         </div>
         <div>
           <div
@@ -737,7 +776,9 @@
               background-position: center;
             "
           ></div>
-		  <p class="text-center mt-3 font-bold text-2xl">Point-of-sale products</p>
+          <p class="text-center mt-3 font-bold text-2xl">
+            Point-of-sale products
+          </p>
         </div>
         <div>
           <div
@@ -748,7 +789,7 @@
               background-position: center;
             "
           ></div>
-		  <p class="text-center mt-3 font-bold text-2xl">Menu boards</p>
+          <p class="text-center mt-3 font-bold text-2xl">Menu boards</p>
         </div>
         <div>
           <div
@@ -759,383 +800,414 @@
               background-position: center;
             "
           ></div>
-		  <p class="text-center mt-3 font-bold text-2xl">Exhibition/Trade shows</p>
+          <p class="text-center mt-3 font-bold text-2xl">
+            Exhibition/Trade shows
+          </p>
         </div>
-       
       </div>
       <div
         class="flex justify-center items-center w-[70%] mx-auto pb-10 scrool overflow-x-scroll gap-[20px]"
       >
-	  <div class="">
-		<div
-		  class="w-[250px] mt-[70px] ms-[500px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
-		  style="
-			background-image: url(./assets/images/box7.jpg);
-			background-size: cover;
-			background-position: center;
-		  "
-		></div>
-		<p class="text-center ms-[500px] mt-3 font-bold text-2xl">Retail signs</p>
-	  </div>
-	  <div>
-		<div
-		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
-		  style="
-			background-image: url(./assets/images/box8.jpg);
-			background-size: cover;
-			background-position: center;
-		  "
-		></div>
-		<p class="text-center mt-3 font-bold text-2xl">Restaurant signs</p>
-	  </div>
-	  <div>
-		<div
-		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
-		  style="
-			background-image: url(./assets/images/box9.jpg);
-			background-size: cover;
-			background-position: center;
-		  "
-		></div>
-		<p class="text-center mt-3 font-bold text-2xl">Nameplates and name badges</p>
-	  </div>
-	  <div>
-		<div
-		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
-		  style="
-			background-image: url(./assets/images/box10.jpg);
-			background-size: cover;
-			background-position: center;
-		  "
-		></div>
-		<p class="text-center mt-3 font-bold text-2xl">Directional and informational signs</p>
-	  </div>
-	  <div>
-		<div
-		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
-		  style="
-			background-image: url(./assets/images/box11.jpg);
-			background-size: cover;
-			background-position: center;
-		  "
-		></div>
-		<p class="text-center mt-3 font-bold text-2xl">Showroom signs</p>
-	  </div>
-	  <div>
-		<div
-		  class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
-		  style="
-			background-image: url(./assets/images/box12.jpg);
-			background-size: cover;
-			background-position: center;
-		  "
-		></div>
-		<p class="text-center mt-3 font-bold text-2xl">Office building signs</p>
-	  </div>
-	</div>
+        <div class="">
+          <div
+            class="w-[250px] mt-[70px] ms-[500px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box7.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+          <p class="text-center ms-[500px] mt-3 font-bold text-2xl">
+            Retail signs
+          </p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box8.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+          <p class="text-center mt-3 font-bold text-2xl">Restaurant signs</p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box9.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+          <p class="text-center mt-3 font-bold text-2xl">
+            Nameplates and name badges
+          </p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box10.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+          <p class="text-center mt-3 font-bold text-2xl">
+            Directional and informational signs
+          </p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box11.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+          <p class="text-center mt-3 font-bold text-2xl">Showroom signs</p>
+        </div>
+        <div>
+          <div
+            class="w-[250px] mt-[70px] h-[250px] border border-[#014e86] rounded-lg shadow-lg p-9"
+            style="
+              background-image: url(./assets/images/box12.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+          <p class="text-center mt-3 font-bold text-2xl">
+            Office building signs
+          </p>
+        </div>
+      </div>
     </section>
-	<div class="w-full p-[50px]"></div>
-	<section class="relative overflow-hidden pb-28">
-		<img
-		  src="./assets/images/3.png"
-		  alt=""
-		  class="absolute left-[-120px] top-0 w-[300px]"
-		/>
-		<img
-		  src="./assets/images/5.png"
-		  alt=""
-		  class="absolute right-[-20px] bottom-[-50px] w-[200px]"
-		/>
-		<div class="w-full h-[max-content] md:px-28 px-3 relative">
-		 
-		<div class="flex justify-center items-center flex-wrap gap-[50px]">
-		  <div
-			class="w-[500px] mt-[70px] h-[max-content]  border border-[#014e86] rounded-lg shadow-lg p-9"
-		  >
-			<h2 class="font-bold text-2xl text-[#014e86]">Size and Variations</h2>
-			
-			<p class="ms-3 text-sm font bold mt-2">Acrylic signs are one of the lightweight boards that are durable and attractive too. Acrylic signs can be made in customizable variations of transparent, opaque, and router-cut variations. Contact us for the best Acrylic signage in Tricity that speaks for itself.</p>
-			
-		  </div>
-		  <div
-			class="w-[700px] mt-[70px] h-[max-content] border border-[#014e86] rounded-lg shadow-lg p-9"
-		  >
-			<h2 class="font-bold text-2xl text-[#014e86]">Add Visual Attraction with Acrylic Sign Ideas</h2>
-		  
-			<p class="ms-3 font text-sm bold mt-2">Highly durable attractive Acrylic sign boards add a unique visual attraction element to your brands. The glossy finish with a variety of colors is used for making high-quality illuminated, architectural, exhibition, and point-of-sale signs. Now, Increase the visual effectiveness of your acrylic signs by:</p>
-			<p class=" ms-7 flex gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Adding stripes, borders, and elements.
-			  </p>
-			<p class=" ms-7 flex  gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Applying multiple lettering colors and fonts
-			  </p>
-			<p class="ms-7 flex gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Incorporating logo and graphic symbols
-			  </p>
-			<p class=" ms-7 flex gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Using multiple layers of acrylic to enhance the image
-			  </p>
-			<p class=" ms-7 flex gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Forming a three-dimensional effect.
-			  </p>
-			<p class="ms-7 flex gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Giving the perception of depth to the finished product—using clear acrylic and applying a background color on the reverse side
-			  </p>
-			<p class=" ms-7 flex gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Designing custom applications
-			  </p>
-			<p class=" ms-7 flex gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Using non-glare acrylic to reduce glare problems
-			  </p>
-		  </div>
-		 
-		</div>
-	  </section>
-	  <div class="w-full p-[50px]"></div>
+    <div class="w-full p-[50px]"></div>
+    <section class="relative overflow-hidden pb-28">
+      <img
+        src="./assets/images/3.png"
+        alt=""
+        class="absolute left-[-120px] top-0 w-[300px]"
+      />
+      <img
+        src="./assets/images/5.png"
+        alt=""
+        class="absolute right-[-20px] bottom-[-50px] w-[200px]"
+      />
+      <div class="w-full h-[max-content] md:px-28 px-3 relative">
+        <div class="flex justify-center items-center flex-wrap gap-[50px]">
+          <div
+            class="w-[500px] mt-[70px] h-[max-content] border border-[#014e86] rounded-lg shadow-lg p-9"
+          >
+            <h2 class="font-bold text-2xl text-[#014e86]">
+              Size and Variations
+            </h2>
 
-	  <section class="w-full h-[max-content] md:px-28 px-3 relative">
-		<div
-		  class="pb-10 shadow-lg rounded-xl"
-		  style="
-			background-image: url(./assets/images/5.png);
-			background-size: contain;
-			background-position: -190px -50px;
-			background-repeat: no-repeat;
-		  "
-		>
-		  <h2
-			class="text-center md:text-[50px] text-[30px] font-bold text-[#014e86]"
-		  >
-		  Installation
-		  </h2>
-		  <p class="w-[80%] mt-10 text-center mx-auto">
-			Acrylic signs are the most durable signboards that can be installed in several ways. Get the best in Tricity Acrylic signage at the most affordable range. Here are a few easy ways in which they can be installed-
-		  </p>
-		 <div class="flex gap-4 justify-center items-center align-center">
-			<p class=" ms-7 flex justify-center  gap-2 mt-7">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Self-support method
-			  </p>
-			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Hanging
-			  </p>
-			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Velcro®
-			  </p>
-			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Glue
-			  </p>
-			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Double-sided tape
-			  </p>
-			  <p class=" ms-7 flex justify-center  gap-2 mt-4">
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  fill="none"
-				  viewBox="0 0 24 24"
-				  stroke-width="1.5"
-				  stroke="currentColor"
-				  class="w-6 h-6"
-				>
-				  <path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
-				  />
-				</svg>
-				Suction cups
-			  </p>
-		 </div>
-		 <p class="text-center mt-20 text-semibold">Contact Us for the best Acrylic Signage work in the Tricity for more information on your product.</p>
-		</div>
-	  </section>
-    <button 
-    id="toTopButton"
-    class="fixed right-4 bottom-4 bg-yellow-500 rounded-full w-10 h-10 p-2 opacity-0" 
-    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
+            <p class="ms-3 text-sm font bold mt-2">
+              Acrylic signs are one of the lightweight boards that are durable
+              and attractive too. Acrylic signs can be made in customizable
+              variations of transparent, opaque, and router-cut variations.
+              Contact us for the best Acrylic signage in Tricity that speaks for
+              itself.
+            </p>
+          </div>
+          <div
+            class="w-[700px] mt-[70px] h-[max-content] border border-[#014e86] rounded-lg shadow-lg p-9"
+          >
+            <h2 class="font-bold text-2xl text-[#014e86]">
+              Add Visual Attraction with Acrylic Sign Ideas
+            </h2>
+
+            <p class="ms-3 font text-sm bold mt-2">
+              Highly durable attractive Acrylic sign boards add a unique visual
+              attraction element to your brands. The glossy finish with a
+              variety of colors is used for making high-quality illuminated,
+              architectural, exhibition, and point-of-sale signs. Now, Increase
+              the visual effectiveness of your acrylic signs by:
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Adding stripes, borders, and elements.
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Applying multiple lettering colors and fonts
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Incorporating logo and graphic symbols
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Using multiple layers of acrylic to enhance the image
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Forming a three-dimensional effect.
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Giving the perception of depth to the finished product—using clear
+              acrylic and applying a background color on the reverse side
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Designing custom applications
+            </p>
+            <p class="ms-7 flex gap-2 mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+              Using non-glare acrylic to reduce glare problems
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="w-full p-[50px]"></div>
+
+    <section class="w-full h-[max-content] md:px-28 px-3 relative">
+      <div
+        class="pb-10 shadow-lg rounded-xl"
+        style="
+          background-image: url(./assets/images/5.png);
+          background-size: contain;
+          background-position: -190px -50px;
+          background-repeat: no-repeat;
+        "
+      >
+        <h2
+          class="text-center md:text-[50px] text-[30px] font-bold text-[#014e86]"
+        >
+          Installation
+        </h2>
+        <p class="w-[80%] mt-10 text-center mx-auto">
+          Acrylic signs are the most durable signboards that can be installed in
+          several ways. Get the best in Tricity Acrylic signage at the most
+          affordable range. Here are a few easy ways in which they can be
+          installed-
+        </p>
+        <div class="flex gap-4 justify-center items-center align-center">
+          <p class="ms-7 flex justify-center gap-2 mt-7">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+              />
+            </svg>
+            Self-support method
+          </p>
+          <p class="ms-7 flex justify-center gap-2 mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+              />
+            </svg>
+            Hanging
+          </p>
+          <p class="ms-7 flex justify-center gap-2 mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+              />
+            </svg>
+            Velcro®
+          </p>
+          <p class="ms-7 flex justify-center gap-2 mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+              />
+            </svg>
+            Glue
+          </p>
+          <p class="ms-7 flex justify-center gap-2 mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+              />
+            </svg>
+            Double-sided tape
+          </p>
+          <p class="ms-7 flex justify-center gap-2 mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+              />
+            </svg>
+            Suction cups
+          </p>
+        </div>
+        <p class="text-center mt-20 text-semibold">
+          Contact Us for the best Acrylic Signage work in the Tricity for more
+          information on your product.
+        </p>
+      </div>
+    </section>
+    <button
+      id="toTopButton"
+      class="fixed right-4 bottom-4 bg-yellow-500 rounded-full w-10 h-10 p-2 opacity-0"
+      onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <footer class="py-6 px-3">
       <div class="w-full p-4 py-8 rounded-lg bg-yellow-50">
         <div class="md:flex md:justify-between">
@@ -1272,7 +1344,7 @@
         </div>
       </div>
     </footer>
-	  <div class="w-full p-[50px]"></div>
+    <div class="w-full p-[50px]"></div>
 
     <script src="" async defer></script>
     <script src="./assets/js/script1.js"></script>
