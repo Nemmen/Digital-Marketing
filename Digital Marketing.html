@@ -55,64 +55,95 @@
       </div>
     </header>
     <nav
-      class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
-    >
-      <div>
-        <a href="#"
-          ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
-        /></a>
-      </div>
-      <div>
-        <ul
-          class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
-        >
-          <li><a href="/" class="font-medium">Home</a></li>
-          <li><a href="./why.html" class="font-medium">About</a></li>
-          <li class="group relative">
-            <a href="#" class="font-medium">Services</a
-            ><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+    class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
+  >
+    <div>
+      <a href="#"
+        ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
+      /></a>
+    </div>
+    <div>
+      <ul
+        class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
+      >
+        <li>
+          <a
+            href="/"
+            class="relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+          >
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="./why.html"
+            class="relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+            >About</a
+          >
+        </li>
+        <li class="group relative items-center">
+         <div class="flex  items-center ">
+          <a
+          href="#"
+          class="relative text-lg  block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+          >Services</a
+        ><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+         </div>
+          <div
+            class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md shadow-md"
+          >
             <div
-              class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md shadow-md"
+              class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2"
             >
-              <div
-                class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2"
-              >
-                <div class="text-center text-sm px-2 border-b-2">
-                  <a href="/Digital Marketing.html" class="font-medium"
-                    >Digital Marketing</a
-                  >
-                </div>
-                <div class="text-center text-sm px-2 border-b-2">
-                  <a href="./Acrylic Signage.html" class="font-medium"
-                    >Acrylic Signage</a
-                  >
-                </div>
-                <div class="text-center text-sm px-2 border-b-2">
-                  <a href="./Printing.html" class="font-medium">Printing</a>
-                </div>
+              <div class="text-center text-sm px-2 border-b-2">
+                <a href="/Digital Marketing.html" class="font-medium"
+                  >Digital Marketing</a
+                >
+              </div>
+              <div class="text-center text-sm px-2 border-b-2">
+                <a href="./Acrylic Signage.html" class="font-medium"
+                  >Acrylic Signage</a
+                >
+              </div>
+              <div class="text-center text-sm px-2 border-b-2">
+                <a href="./Printing.html" class="font-medium">Printing</a>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li><a href="./contact.html" class="font-medium">Contact</a></li>
-          <li><a href="#" class="font-medium">Blogs</a></li>
-        </ul>
-      </div>
-      <div class="lg:hidden md:hidden sm:block block toggle">
-        <img
-          src="./assets//images/menu-icon.png"
-          alt=""
-          class="w-12 h-12 object-fit"
-        />
-      </div>
-      <div class="lg:hidden md:hidden sm:hidden hidden close">
-        <img
-          src="./assets//images/toggle-close.png"
-          alt=""
-          class="w-8 h-8 object-fit"
-        />
-      </div>
-    </nav>
+        <li>
+          <a
+            href="./contact.html"
+            class="relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+            >Contact</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="relative text-lg block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+            >Blogs</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="lg:hidden md:hidden sm:block block toggle">
+      <img
+        src="./assets//images/menu-icon.png"
+        alt=""
+        class="w-12 h-12 object-fit"
+      />
+    </div>
+    <div class="lg:hidden md:hidden sm:hidden hidden close">
+      <img
+        src="./assets//images/toggle-close.png"
+        alt=""
+        class="w-8 h-8 object-fit"
+      />
+    </div>
+  </nav>
     <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
       <div class="flex flex-col justify-center gap-y-6 px-5">
           <div class="text-center py-3 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Acrylic Signage</a></div>
