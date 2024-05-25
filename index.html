@@ -73,13 +73,34 @@
             </a>
           </li>
 
-          <li>
-            <a
-              href="./why.html"
-              class="relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-              >About</a
-            >
-          </li>
+          <li class="group relative items-center">
+            <div class="flex  items-center ">
+             <a
+             href="./why.html"
+             class="relative text-lg z-[350] block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+             >About</a
+           ><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+            </div>
+             <div
+               class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md shadow-md"
+             >
+               <div
+                 class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2"
+               >
+                 <div class="text-center text-sm px-2 border-b-2">
+                   <a href="/why.html" class="font-medium"
+                     >Why Us</a
+                   >
+                 </div>
+                 <div class="text-center text-sm px-2 border-b-2">
+                   <a href="./experience.html" class="font-medium"
+                     >Experience</a
+                   >
+                 </div>
+                 
+               </div>
+             </div>
+           </li>
           <li class="group relative items-center">
            <div class="flex  items-center ">
             <a
@@ -89,7 +110,7 @@
           ><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
            </div>
             <div
-              class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md shadow-md"
+              class="hidden group-hover:block absolute left-0 z-[350] bg-white/75 backdrop-blur-md shadow-md"
             >
               <div
                 class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2"
@@ -180,7 +201,7 @@
   <!-- Carousel wrapper -->
   <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
        <!-- Item 1 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <div class="hidden z-10 duration-700 ease-in-out" data-carousel-item>
         <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
 
           <div
@@ -208,7 +229,7 @@
             </button>
           </div>
           <div
-            class="lg:mt-0 lg:order-last md:order-last sm:order-first lg:col-span-5 md:col-span-5 sm:col-span-12 text-center col-span-12"
+            class="lg:mt-0  lg:order-last md:order-last sm:order-first lg:col-span-5 md:col-span-5 sm:col-span-12 text-center col-span-12"
           >
             <img src="./assets/images/hero2.jpg" alt="mockup" />
           </div>
@@ -340,7 +361,7 @@
             all your marketing needs We are The Leading Marketing Agency in
             Tricity with a unique combination of fresh thinking, creative
             alignment, and commercially focused strategies for your
-            brand/business. If you’re looking for a winning Marketing Strategy
+            brand/business. If you're looking for a winning Marketing Strategy
             to
           </p>
           <div class="text-gray-500">
@@ -583,134 +604,19 @@
       </div>
     </section>
 
-    <section class="py-10 px-6 bg-gradient-to-b from-blue-50">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="grid gap-4">
-          <div class="border-2 rounded-lg shadow-md bg-white">
-            <div class="w-12-h-12 mx-auto">
-              <img
-                src="./assets/images/coffee.png"
-                class="w-12-h-12 mx-auto object-fit"
-                alt=""
-              />
-            </div>
-
-            <h2 class="text-5xl font-bold text-center">3456</h2>
-            <p class="text-center pb-4">Coffee Cups</p>
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50"
-              src="./assets/images/work1.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50"
-              src="./assets/images/w9.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50"
-              src="./assets/images/coffee1.jpg"
-              alt=""
-            />
-          </div>
-          <div
-            class="border-2 rounded-lg shadow-md bg-white shadow-md bg-white"
-          >
-            <div class="w-12-h-12 mx-auto">
-              <img
-                src="./assets/images/happy.png"
-                class="w-12-h-12 mx-auto object-fit"
-                alt=""
-              />
-            </div>
-
-            <h2 class="text-5xl font-bold text-center">1000</h2>
-            <p class="text-center pb-4">Happy Clients</p>
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50"
-              src="./assets/images/bill.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div class="rounded-lg border-2 shadow-md bg-white">
-            <div class="w-12-h-12 mx-auto">
-              <img
-                src="./assets/images/success.png"
-                class="w-12-h-12 mx-auto object-fit"
-                alt=""
-              />
-            </div>
-
-            <h2 class="text-5xl font-bold text-center">642</h2>
-            <p class="text-center pb-4">Successful Projects</p>
-          </div>
-          <div class="bg-black/75 rounded-lg">
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50 opacity-50"
-              src="./assets/images/w3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50"
-              src="./assets/images/w4.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div class="bg-black/75 rounded-lg">
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50"
-              src="./assets/images/w2.jpg"
-              alt=""
-            />
-          </div>
-          <div class="rounded-lg border-2 shadow-md bg-white">
-            <div class="w-12-h-12 mx-auto">
-              <img
-                src="./assets/images/work.png"
-                class="w-12-h-12 mx-auto object-fit"
-                alt=""
-              />
-            </div>
-
-            <h2 class="text-5xl font-bold text-center">431</h2>
-            <p class="text-center pb-4">Work Completed</p>
-          </div>
-          <div class="bg-black/75 rounded-lg">
-            <img
-              class="h-auto max-w-full rounded-lg opacity-50 opacity-50"
-              src="./assets/images/w1.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+    
     <div
       class="min-w-screen min-h-screen flex items-center justify-center py-5"
     >
       <div class="w-full bg-white px-5 py-16 md:py-24 text-gray-800">
         <div class="w-full max-w-6xl mx-auto">
           <div class="mb-10">
-            <h1 class="text-6xl text-[#014d84] md:text-7xl font-bold mb-5">
-              What people <br />are saying.
+            <h1 class="mb-4 text-4xl tracking-tight text-center font-bold text-[#161827]">
+              What People Are Saying.
             </h1>
-           
+            <p class="text-gray-500 sm:text-xl text-center">
+              Our marketing services elevate your brand presence across digital and <br> physical platforms, fostering meaningful engagement and ensuring you stand out.
+            </p>
             <!-- <div class="text-center mb-10">
                         <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
                         <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
@@ -743,8 +649,7 @@
                       >"</span
                     >Blissful Events and Solutions transformed our storefront
                     with stunning acrylic boards. Crisp, vibrant, and durable –
-                    they exceeded our expectations. Highly recommend their
-                    top-notch service and quality!<span
+                    they exceeded our expectations. <span
                       class="text-lg leading-none italic font-bold text-gray-400 ml-1"
                       >"</span
                     >
@@ -834,8 +739,7 @@
                       >"</span
                     >Blissful's posters brought our campaign to life with vivid
                     colors and sharp images. The turnaround time was impressive,
-                    and the team was responsive and professional. Great
-                    experience overall!<span
+                    and the team was responsive and professional.<span
                       class="text-lg leading-none italic font-bold text-gray-400 ml-1"
                       >"</span
                     >
@@ -866,8 +770,7 @@
                       >"</span
                     >Our event banners were a hit, thanks to Blissful Events and
                     Solutions. The print quality was superb, and the materials
-                    were durable. They truly made our event stand out. Excellent
-                    service<span
+                    were durable. They truly made our event stand out.<span
                       class="text-lg leading-none italic font-bold text-gray-400 ml-1"
                       >"</span
                     >
@@ -897,7 +800,7 @@
                     >The electronic LED modules from Blissful are fantastic!
                     They brightened our outdoor signage beautifully. Easy to
                     install and maintain, they added a modern touch to our
-                    advertising efforts.<span
+                    advertisements<span
                       class="text-lg leading-none italic font-bold text-gray-400 ml-1"
                       >"</span
                     >
