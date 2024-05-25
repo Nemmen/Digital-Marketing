@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blissful Event Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      font-family: "Work Sans", sans-serif;
+      font-size: 18px;
+    }
+  </style>
+  <body>
+
+    <header class="lg:block md:block sm:hidden hidden">
+      <div class="bg-[#161827] text-white flex justify-between px-12 py-2">
+        <div>
+          <div class="lg:flex gap-x-4">
+            <div class="">
+              <i class="fa-solid fa-headset text-white pe-2"></i
+              ><a
+                href=""
+                class="text-sm hover:text-white/85 transform duration-150 text-white/50"
+                >blissful.eventsolutions@gmail.com</a
+              >
+            </div>
+            <div class="">
+              <i class="fa-solid fa-square-phone text-white"></i>
+              <a
+                href=""
+                class="text-sm hover:text-white/85 transform duration-150 text-white/50"
+                >+91 9914021087</a
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex gap-x-4">
+            <div><i class="fa-brands fa-facebook-f text-white"></i></div>
+            <div><i class="fa-brands fa-x-twitter text-white"></i></div>
+            <div><i class="fa-brands fa-google-plus-g text-white"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav
+      class="p-2 flex lg:ps-10 lg:pe-10 lg:flex justify-between z-20 items-center sticky top-0 bg-white/50 backdrop-blur-md"
+    >
+      <div>
+        <a href="#"
+          ><img src="./assets/images/logo.png " class="w-32 h-12" alt=""
+        /></a>
+      </div>
+      <div>
+        <ul
+          class="lg:flex md:flex sm:hidden hidden justify-around gap-x-5 justify-center"
+        >
+          <li>
+            <a
+              href="/"
+              class="relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="./why.html"
+              class="relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+              >About</a
+            >
+          </li>
+          <li class="group relative items-center">
+            <div class="flex items-center">
+              <a
+                href="./service.html"
+                class="relative text-lg block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+                >Services</a
+              ><i class="fa-solid fa-caret-down ps-2 text-gray-700"></i>
+            </div>
+            <div
+              class="hidden group-hover:block absolute left-0 z-50 bg-white/75 backdrop-blur-md shadow-md"
+            >
+              <div
+                class="flex flex-col justify-center gap-y-4 px-5 w-[140px] pt-2 pb-2"
+              >
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="/Digital Marketing.html" class="font-medium"
+                    >Digital Marketing</a
+                  >
+                </div>
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="./Acrylic Signage.html" class="font-medium"
+                    >Acrylic Signage</a
+                  >
+                </div>
+                <div class="text-center text-sm px-2 border-b-2">
+                  <a href="./Printing.html" class="font-medium">Printing</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="./contact.html"
+              class="relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="relative text-lg block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+              >Blogs</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lg:hidden md:hidden sm:block block toggle">
+        <img
+          src="./assets//images/menu-icon.png"
+          alt=""
+          class="w-12 h-12 object-fit"
+        />
+      </div>
+      <div class="lg:hidden md:hidden sm:hidden hidden close">
+        <img
+          src="./assets//images/toggle-close.png"
+          alt=""
+          class="w-8 h-8 object-fit"
+        />
+      </div>
+    </nav>
+    <section>
+		<div class="h-[max-content]">
+			<div
+			  class="flex justify-center align-center items-center"
+			  style="
+				background-color: rgb(0, 0, 0);
+				height: 300px;
+				color: rgb(255, 255, 255);
+				margin-bottom: 80px;
+				background-image: url('https://digifyconsultant.com/wp-content/uploads/2022/04/serv-1.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-attachment: scroll;
+				background-position: center center;
+				padding-top: 0px;
+			  "
+			>
+			  <div class="">
+				<div class="text-center">
+				  <div class="gt3-page-title__content">
+					<div class="font-bold text-4xl "><h1>Services</h1></div>
+					<div class="gt3_breadcrumb">
+					  <div class="mt-4">
+						<a href="/">Home</a
+						><span class="mx-3">/</span
+						><span class="current">Services</span>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</section>
+
+ 
+  
+  <section class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="max-w-screen-md mb-8 lg:mb-16 mx-auto">
+      <p class="text-gray-500 sm:text-xl text-center">
+        Our marketing services are designed to boost your presence both
+        online and offline, driving meaningful engagement and ensuring your
+        brand stands out. We specialize in:
+      </p>
+    </div>
+    <div
+          class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
+        >
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4  rounded-full "
+            >
+              <img
+                src="./assets/images/digital-marketing-1.jpg"
+                class=""
+                alt=""
+              />
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-black/75">
+              Digital Marketing
+            </h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Our digital marketing strategies boost your online presence. SEO,
+              social media, and PPC campaigns are crafted to meet your marketing
+              goals.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span>
+          </button></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4 rounded-full  dark:bg-primary-900"
+            >
+              <img src="./assets/images/event.jpg" class="" alt="" />
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-black/75">Events</h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Our event marketing ensures your brand shines. From planning to
+              execution, we deliver memorable experiences and flawless events.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4  rounded-full dark:bg-primary-900"
+            >
+              <img src="./assets/images/acrylic-signage.jpg" class="" alt="" />
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-black/75">
+              Acrylic Signage
+            </h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Our acrylic signage solutions offer high durability and
+              visibility. Perfect for both indoor and outdoor applications.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4 rounded-full dark:bg-primary-900"
+            >
+              <img
+                src="./assets/images/printing.jpg"
+                class=""
+                alt=""
+              />
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-black/75">Printing</h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Our printing services include brochures, flyers, and business
+              cards. High-quality materials and vivid colors make your brand
+              shine.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4  rounded-full dark:bg-primary-900"
+            >
+              <img src="./assets/images/radium.jpg" class="" alt="" />
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-black/75">
+              Acrylic and Radium
+            </h3>
+            <p class="text-gray-500 mb-10  dark:text-gray-400">
+              Our acrylic and radium signage attract customers effectively.
+              Ideal for creating lasting impressions and promoting your
+              business.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4 rounded-full  dark:bg-primary-900"
+            >
+              <img src="./assets/images/printing2.jpg" class="" alt="" />
+            </div>
+            <h3 class="mb-2 text-lg font-bold text-black/75">
+              Electricals-LED & Rigid Modules
+            </h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Our LED and rigid modules provide brilliant, energy-efficient
+              lighting. Perfect for signage that stands out day and night.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4 rounded-full  dark:bg-primary-900"
+            >
+              <img src="./assets/images/gala.jpg" class="" alt="" />
+            </div>
+            <h3 class="mb-2 text-lg font-bold text-black/75">
+              Gala Evening
+            </h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Excepteur sint occaecat cupidatat non proi dent, sunt in culpa qui officia deserunt mollit anim id est.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4 rounded-full  dark:bg-primary-900"
+            >
+              <img src="./assets/images/trade.jpg" class="" alt="" />
+            </div>
+            <h3 class="mb-2 text-lg font-bold text-black/75">
+              Cultural Events
+            </h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Excepteur sint occaecat cupidatat non proi dent, sunt in culpa qui officia deserunt mollit anim id est.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+          <div
+            class="rounded-md shadow-md p-4 bg-white hover:shadow-lg duration-300"
+          >
+            <div
+              class="flex justify-center items-center mb-4 rounded-full  dark:bg-primary-900"
+            >
+              <img src="./assets/images/exhibition.jpg" class="" alt="" />
+            </div>
+            <h3 class="mb-2 text-lg font-bold text-black/75">
+              Exhibition
+            </h3>
+            <p class="text-gray-500 mb-10 dark:text-gray-400">
+              Excepteur sint occaecat cupidatat non proi dent, sunt in culpa qui officia deserunt mollit anim id est.
+            </p>
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Read more</span></a>
+          </div>
+        </div>
+  </section>
+  
+  
+  <section>
+    <div
+      class="min-w-screen min-h-screen flex items-center justify-center py-5"
+    >
+      <div class="w-full bg-white px-5 py-16 md:py-24 text-gray-800">
+        <div class="w-full max-w-6xl mx-auto">
+          <div class="mb-10">
+            <h1 class="text-6xl text-[#014d84] md:text-7xl font-bold mb-5">
+              Why Blissful Events and Solutions?
+            </h1>
+           
+            <!-- <div class="text-center mb-10">
+                        <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                        <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                        <span class="inline-block w-40 h-1 rounded-full bg-indigo-500"></span>
+                        <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                        <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                    </div> -->
+          </div>
+          <div class="-mx-3 md:flex items-start">
+            <div class="px-3 md:w-1/2">
+              <div
+                class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6"
+              >
+                <div class="w-full flex mb-4 items-center">
+                  <div class="flex-grow pl-3">
+                    <h6 class="font-bold text-sm uppercase text-gray-600">
+                      Long-term commitments
+                    </h6>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="font-normal text-sm leading-tight">
+                    <span
+                      class="text-lg leading-none italic font-bold text-gray-400 mr-1"
+                      >"</span
+                    >We don’t work with Limited short-term contracts. We work with full commitment for your brand/business giving our clients the flexibility they need. We work in alignment with the client needs and the marketing trends that help your brand identity reach new heights.<span
+                      class="text-lg leading-none italic font-bold text-gray-400 ml-1"
+                      >"</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6"
+              >
+                <div class="w-full flex mb-4 items-center">
+                  <div class="flex-grow pl-3">
+                    <h6 class="font-bold text-sm uppercase text-gray-600">
+                      Mutual engagement
+                    </h6>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="font-normal text-sm leading-tight">
+                    <span
+                      class="text-lg leading-none italic font-bold text-gray-400 mr-1"
+                      >"</span
+                    >Good and fair relationships are important to us! Our first step towards our brand is mutual engagement. We understand the brand requirements and work out to bring out the strategies that work best for your business through acrylic signage boards and digital marketing.<span
+                      class="text-lg leading-none italic font-bold text-gray-400 ml-1"
+                      >"</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 md:w-1/2">
+              <div
+                class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6"
+              >
+                <div class="w-full flex mb-4 items-center">
+                  
+                  <div class="flex-grow pl-3">
+                    <h6 class="font-bold text-sm uppercase text-gray-600">
+                      Native experts from the Tricity
+                    </h6>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="font-normal text-sm leading-tight">
+                    <span
+                      class="text-lg leading-none italic font-bold text-gray-400 mr-1"
+                      >"</span
+                    >We have The Best Acrylic Work experts available right at hand. We understand local needs, such as preferred payment methods, shipping methods, best communication channels, trends, and consumer behavior thus, helping you at all levels of marketing. <span
+                      class="text-lg leading-none italic font-bold text-gray-400 ml-1"
+                      >"</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6"
+              >
+                <div class="w-full flex mb-4 items-center">
+                  
+                  <div class="flex-grow pl-3">
+                    <h6 class="font-bold text-sm uppercase text-gray-600">
+                      Growth sprint model
+                    </h6>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="font-normal text-sm leading-tight">
+                    <span
+                      class="text-lg leading-none italic font-bold text-gray-400 mr-1"
+                      >"</span
+                    >We are the leading Digital Marketing Agency in Tricity, with the growth sprint model that ensures a rewarding collaboration, weekly updates that consist of results, defining new tasks, addressing action items and questions for the upcoming weeks. We compose strategies that bring effective results.<span
+                      class="text-lg leading-none italic font-bold text-gray-400 ml-1"
+                      >"</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <footer class="py-6 px-3">
+      <div class="w-full p-4 py-8 rounded-lg bg-[#161827]">
+        <div class="md:flex md:justify-around">
+          <div class="mb-6 md:mb-0">
+         
+            <p
+              class="w-60 mt-3 text-gray-500 md:relative md:top-10 text-sm font-light"
+            >
+              Blissful Events and Solutions is one of Tricity’s fastest-growing
+              physical and digital marketing agencies. We’re focused on bringing
+              in growth.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Services
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="./why.html" class="hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                  <a href="./service.html" class="hover:underline">Services</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Testimonials</a>
+                </li>
+                <li class="">
+                  <a href="./contact.html" class="hover:underline">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Follow us
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Twitter</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Facebook</a>
+                </li>
+                <li>
+                  <a href="" class="hover:underline">Instagram</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Legal
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-around">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2024 <a href="#" class="hover:underline">Blissful™</a>. All
+            Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-200">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 8 19"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook page</span>
+            </a>
+
+            <a href="#" class="text-gray-500 hover:text-gray-200 ms-5">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Twitter page</span>
+            </a>
+            <div class="ms-5 relative bottom-1">
+              <i
+                class="fa-brands fa-google-plus-g text-white/50 hover:text-white"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="" async defer></script>
+	<script src="./assets/js/script1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3ab55db2b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

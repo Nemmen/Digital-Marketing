@@ -8,17 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <style>
     * {
       font-family: "Work Sans", sans-serif;
       font-size: 18px;
     }
-    
-    </style>
+  </style>
   <body class="bg-[#f5f5f5]">
     <header class="lg:block md:block sm:hidden hidden">
       <div class="bg-[#161827] text-white flex justify-between px-12 py-2">
@@ -168,22 +170,54 @@
           <div class="text-center py-3 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Digital Marketing</a></div>
           <div class="text-center py-3 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
       </div>
-  </div> -->
-
-  
-  <div class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md">
-      <div class="flex flex-col justify-center gap-y-6">
-          <div class="text-center py-3 border-b-2"><a href="/" class="font-medium">Home</a></div>
-          <div class="text-center py-3 border-b-2"><a href="./why.html" class="font-medium">About</a></div>
-          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Services</a></div>
-          <div class="text-center py-3 border-b-2"><a href="./contact.html" class="font-medium">Contact</a></div>
-          <div class="text-center py-3 border-b-2"><a href="#" class="font-medium">Blogs</a></div>
+      <div class="lg:hidden md:hidden sm:block block toggle">
+        <img
+          src="./assets//images/menu-icon.png"
+          alt=""
+          class="w-12 h-12 object-fit"
+        />
       </div>
-  </div>
+      <div class="lg:hidden md:hidden sm:hidden hidden close">
+        <img
+          src="./assets//images/toggle-close.png"
+          alt=""
+          class="w-8 h-8 object-fit"
+        />
+      </div>
+    </nav>
+    <!-- <div class="hidden group-hover:block group-hover:sticky group-hover:top-0 z-50 bg-white/65 backdrop-blur-md shadow-md">
+        <div class="flex flex-col justify-center gap-y-6 px-5">
+            <div class="text-center py-3 border-b-2"><a href="/Digital Marketing.html" class="font-medium">Acrylic Signage</a></div>
+            <div class="text-center py-3 border-b-2"><a href="./Acrylic Signage.html" class="font-medium">Digital Marketing</a></div>
+            <div class="text-center py-3 border-b-2"><a href="./Printing.html" class="font-medium">Printing</a></div>
+        </div>
+    </div> -->
+
+    <div
+      class="sticky z-50 top-0 hidden mob-nav bg-white/65 backdrop-blur-md shadow-md"
+    >
+      <div class="flex flex-col justify-center gap-y-6">
+        <div class="text-center py-3 border-b-2">
+          <a href="/" class="font-medium">Home</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="./why.html" class="font-medium">About</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="./service.html" class="font-medium">Services</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="./contact.html" class="font-medium">Contact</a>
+        </div>
+        <div class="text-center py-3 border-b-2">
+          <a href="#" class="font-medium">Blogs</a>
+        </div>
+      </div>
+    </div>
     <section>
       <div class="w-full h-[max-content] md:px-28 px-3 pt-20 relative">
         <img
-           src="./assets/images/4.png"
+          src="./assets/images/4.png"
           class="absolute left-[-99px] md:left-[-69px] top-0 z-[-1] w-[200px]"
           alt=""
         />
@@ -194,7 +228,11 @@
             <h2
               class="md:text-[50px] text-[30px] text-center md:text-start font-bold"
             >
-              Why <span class="text-[#014e86] md:text-[50px] text-[30px]"> Blissful</span> Solutions
+              Why
+              <span class="text-[#014e86] md:text-[50px] text-[30px]">
+                Blissful</span
+              >
+              Solutions
               <span class="text-[#014e86] md:text-[60px]">?</span>
             </h2>
             <p class="text-lg ms-7 flex gap-2 mt-3">
@@ -226,20 +264,20 @@
                 >Long-Term Commitments and Innovative Strategies</span
               >
             </p>
-            <br>
-            <button
-            class="before:ease lg:ms-8 relative h-12 w-40 overflow-hidden border border-yellow-500 text-yellow-600 shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-yellow-500 before:duration-300 hover:text-white hover:shadow-yellow-500 hover:before:h-64 hover:before:-translate-y-32"
-          >
-            <span class="relative z-10">Learn More</span>
-          </button>
+            <br />
+            <a href="" class=""><button
+              class="before:ease relative h-12 w-40 overflow-hidden border border-[#014d84] text-[#014d84] shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#014d84] before:duration-300 hover:text-white hover:shadow-[#014d84] hover:before:h-64 hover:before:-translate-y-32"
+            >
+              <span class="relative z-10">Learn More</span>
+          </button></a>
           </div>
           <div class="relative">
             <img
-               src="./assets/images/5.png"
-              class="absolute right-0 bottom-0 z-[-1] w-[150px]"
+              src="./assets/images/5.png"
+              class="absolute right-[-100px] bottom-0 z-[-1] w-[150px]"
               alt=""
             />
-            <img  src="./assets/images/1.png" class="w-[600px]" alt="hero_img" />
+            <img src="./assets/images/hero3.avif" class="w-[600px] rounded-md" alt="hero_img" />
           </div>
         </div>
       </div>
@@ -272,15 +310,19 @@
     <div class="w-full p-[50px]"></div>
 
     <section class="relative overflow-hidden">
-      <img  src="./assets/images/4.png" alt="" class="absolute right-[-40px] w-[300px]" />
+      <img
+        src="./assets/images/4.png"
+        alt=""
+        class="absolute right-[-40px] w-[300px]"
+      />
       <div class="w-full h-[max-content] md:px-28 px-3 relative">
         <div
           class="flex justify-between xl:flex-nowrap flex-wrap items-center w-full"
         >
           <div class="relative text-center mx-auto">
-            <img  src="./assets/images/2.png" class="w-[600px]" alt="hero_img" />
+            <img src="./assets/images/2.png" class="w-[600px]" alt="hero_img" />
             <img
-               src="./assets/images/5.png"
+              src="./assets/images/5.png"
               class="absolute left-0 bottom-0 z-[-1] w-[150px]"
               alt=""
             />
@@ -400,12 +442,12 @@
 
     <section class="relative overflow-hidden pb-28">
       <img
-         src="./assets/images/3.png"
+        src="./assets/images/3.png"
         alt=""
         class="absolute left-[-120px] top-0 w-[300px]"
       />
       <img
-         src="./assets/images/5.png"
+        src="./assets/images/5.png"
         alt=""
         class="absolute right-[-20px] bottom-[-50px] w-[200px]"
       />
@@ -428,7 +470,7 @@
           class="w-[300px] mt-[70px] h-[300px] border border-[#014e86] rounded-lg shadow-lg p-9"
         >
           <h2 class="font-bold text-2xl text-[#014e86]">Weekly Updates</h2>
-          <img  src="./assets/images/8.png" alt="" class="w-[100px]" />
+          <img src="./assets/images/8.png" alt="" class="w-[100px]" />
           <p class="ms-3 text-xl font bold mt-2">- Review results</p>
           <p class="ms-3 text-xl font bold mt-2">- Plan next steps</p>
         </div>
@@ -436,7 +478,7 @@
           class="w-[300px] mt-[70px] h-[300px] border border-[#014e86] rounded-lg shadow-lg p-9"
         >
           <h2 class="font-bold text-2xl text-[#014e86]">Defining Tasks</h2>
-          <img  src="./assets/images/7.png" alt="" class="w-[100px]" />
+          <img src="./assets/images/7.png" alt="" class="w-[100px]" />
           <p class="ms-3 text-xl font bold mt-2">- Set new goals</p>
           <p class="ms-3 text-xl font bold mt-2">- Plan actions</p>
         </div>
@@ -446,7 +488,7 @@
           <h2 class="font-bold text-lg text-[#014e86]">
             Addressing Action Items
           </h2>
-          <img  src="./assets/images/6.png" alt="" class="w-[100px]" />
+          <img src="./assets/images/6.png" alt="" class="w-[100px]" />
           <p class="ms-3 text-xl font bold mt-2">- Clarify queries</p>
           <p class="ms-3 text-xl font bold mt-2">- Follow up</p>
         </div>
@@ -475,9 +517,13 @@
             class="flex justify-between xl:flex-nowrap flex-wrap items-center w-full"
           >
             <div class="relative">
-              <img  src="./assets/images/20_years_of_success.png" class="w-[500px]" alt="hero_img" />
               <img
-                 src="./assets/images/5.png"
+                src="./assets/images/20_years_of_success.png"
+                class="w-[500px]"
+                alt="hero_img"
+              />
+              <img
+                src="./assets/images/5.png"
                 class="absolute left-0 bottom-0 z-[-1] w-[150px]"
                 alt=""
               />
@@ -486,12 +532,23 @@
               <h2
                 class="md:text-[30px] text-[30px] text-[#014e86] text-center md:text-start font-bold"
               >
-			  20 years of Dedication and Experience
+                20 years of Dedication and Experience
               </h2>
-              <p class="text-sm  mt-3">
-				Our 20 years journey in our niche promises perfection as we connect the dots, bringing in all areas and avenues wherein your brand can rise and shine physically and digitally. We promise you perfection from buyer journey to integrated web experience, custom content to killer ad search print and digital campaigns.
-				Since its conception, Blissful Events and Solutions has been crafting state-of-the-art signage for businesses in the Tricity. Certainly, our story goes well beyond that. The founders have extensive experience in the signage industry, providing you with top-of-the-line signs for businesses of any size. Our comprehensive services include everything from- design, manufacturing to permitting, installation and maintenance. Our signage-making company takes pride in providing landmarks for businesses all across the city.
-				
+              <p class="text-sm mt-3">
+                Our 20 years journey in our niche promises perfection as we
+                connect the dots, bringing in all areas and avenues wherein your
+                brand can rise and shine physically and digitally. We promise
+                you perfection from buyer journey to integrated web experience,
+                custom content to killer ad search print and digital campaigns.
+                Since its conception, Blissful Events and Solutions has been
+                crafting state-of-the-art signage for businesses in the Tricity.
+                Certainly, our story goes well beyond that. The founders have
+                extensive experience in the signage industry, providing you with
+                top-of-the-line signs for businesses of any size. Our
+                comprehensive services include everything from- design,
+                manufacturing to permitting, installation and maintenance. Our
+                signage-making company takes pride in providing landmarks for
+                businesses all across the city.
               </p>
             </div>
           </div>
@@ -500,123 +557,128 @@
     </section>
 
     <div class="w-full p-[50px]"></div>
-    <button 
-    id="toTopButton"
-    class="fixed right-4 bottom-4 bg-[#014d84] text-white rounded-lg w-10 h-10 p-2 opacity-0" 
-    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
-<footer class="py-6 px-3">
-  <div class="w-full p-4 py-8 rounded-lg bg-[#161827]">
-    <div class="md:flex md:justify-around ">
-      <div class="mb-6 md:mb-0">
-        <a href="https://flowbite.com/" class="flex items-center">
-          
-        </a>
-        <p class="w-60 mt-3 text-gray-500 md:relative md:top-10 text-sm font-light">
-          Blissful Events and Solutions is one of Tricity’s fastest-growing
-          physical and digital marketing agencies. We’re focused on bringing
-          in growth.
-        </p>
-      </div>
-      <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-        <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
-            Services
-          </h2>
-          <ul class="text-gray-500 dark:text-gray-400 font-medium">
-            <li class="mb-4">
-              <a href="./why.html" class="hover:underline">About</a>
-            </li>
-            <li class="mb-4">
-              <a href="" class="hover:underline">Services</a>
-            </li>
-            <li class="mb-4">
-              <a href="" class="hover:underline">Testimonials</a>
-            </li>
-            <li class="">
-              <a href="./contact.html" class="hover:underline">Contact</a>
-            </li>
-          </ul>
+    <button
+      id="toTopButton"
+      class="fixed right-4 bottom-4 bg-[#014d84] text-white rounded-lg w-10 h-10 p-2 opacity-0"
+      onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <footer class="py-6 px-3">
+      <div class="w-full p-4 py-8 rounded-lg bg-[#161827]">
+        <div class="md:flex md:justify-around">
+          <div class="mb-6 md:mb-0">
+            <a href="https://flowbite.com/" class="flex items-center"> </a>
+            <p
+              class="w-60 mt-3 text-gray-500 md:relative md:top-10 text-sm font-light"
+            >
+              Blissful Events and Solutions is one of Tricity’s fastest-growing
+              physical and digital marketing agencies. We’re focused on bringing
+              in growth.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Services
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="./why.html" class="hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                  <a href="./service.html" class="hover:underline">Services</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Testimonials</a>
+                </li>
+                <li class="">
+                  <a href="./contact.html" class="hover:underline">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Follow us
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Twitter</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">Facebook</a>
+                </li>
+                <li>
+                  <a href="" class="hover:underline">Instagram</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Legal
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
-            Follow us
-          </h2>
-          <ul class="text-gray-500 dark:text-gray-400 font-medium">
-            <li class="mb-4">
-              <a href="" class="hover:underline">Twitter</a>
-            </li>
-            <li class="mb-4">
-              <a href="" class="hover:underline">Facebook</a>
-            </li>
-            <li>
-              <a href="" class="hover:underline">Instagram</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
-            Legal
-          </h2>
-          <ul class="text-gray-500 dark:text-gray-400 font-medium">
-            <li class="mb-4">
-              <a href="#" class="hover:underline">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <hr
-      class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
-    />
-    <div class="sm:flex sm:items-center sm:justify-around">
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-        >© 2024 <a href="#" class="hover:underline">Blissful™</a>. All
-        Rights Reserved.
-      </span>
-      <div class="flex mt-4 sm:justify-center sm:mt-0">
-        <a href="#" class="text-gray-500 hover:text-gray-200">
-          <svg
-            class="w-4 h-4"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 8 19"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          <span class="sr-only">Facebook page</span>
-        </a>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-around">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2024 <a href="#" class="hover:underline">Blissful™</a>. All
+            Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-200">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 8 19"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook page</span>
+            </a>
 
-        <a href="#" class="text-gray-500 hover:text-gray-200 ms-5">
-          <svg
-            class="w-4 h-4"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 17"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          <span class="sr-only">Twitter page</span>
-        </a>
-        <div class="ms-5 relative bottom-1"><i class="fa-brands fa-google-plus-g text-white/50 hover:text-white"></i></div>
+            <a href="#" class="text-gray-500 hover:text-gray-200 ms-5">
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Twitter page</span>
+            </a>
+            <div class="ms-5 relative bottom-1">
+              <i
+                class="fa-brands fa-google-plus-g text-white/50 hover:text-white"
+              ></i>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</footer> 
+    </footer>
     <script src="" async defer></script>
     <script src="./assets/js/script1.js"></script>
     <script
