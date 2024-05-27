@@ -27,7 +27,7 @@ close.addEventListener('click', function(){
 });
 window.addEventListener('scroll', function() {
     var toTopButton = document.getElementById('toTopButton');
-    if (window.pageYOffset > 300) {
+    if (window.scrollY > 300) {
         toTopButton.style.opacity = "1";
     } else {
         toTopButton.style.opacity = "0";
