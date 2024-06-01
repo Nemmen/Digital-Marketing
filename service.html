@@ -19,6 +19,53 @@
       font-family: "Work Sans", sans-serif;
       font-size: 18px;
     }
+    .whatsapp-float {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 60px;
+    right: 62%;
+    margin-right: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.whatsapp-float:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
   </style>
   <body class="scroll-smooth">
 
@@ -555,6 +602,10 @@
       </div>
     </div>
   </section>
+  <a href="https://wa.me/917347344401" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="whatsapp-icon">
+    <span class="tooltip">Reach out to us</span>
+</a>
     <footer class="py-6 px-3">
       <div class="w-full p-4 py-8 rounded-lg bg-[#161827]">
         <div class="md:flex md:justify-around">
