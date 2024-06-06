@@ -33,3 +33,7 @@ window.addEventListener('scroll', function() {
         toTopButton.style.opacity = "0";
     }
 });
+document.getElementById('closePopup').onclick = function() {
+    document.getElementById('popupContactForm').style.display = 'none';
+  }
+  

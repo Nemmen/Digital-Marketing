@@ -75,6 +75,56 @@
     visibility: visible;
     opacity: 1;
 }
+/* Add your CSS styles here */
+
+.popup-contact-form {
+  position: fixed;
+  top: 130px;
+  right: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #161827;
+  color: white;
+}
+
+.popup-form {
+  padding: 20px;
+}
+
+.close-popup {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.popup-form input, .popup-form textarea {
+  width: calc(100% - 40px);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.popup-form textarea {
+  height: 50px;
+  outline: none;
+  border-color: #161827;
+}
+
 
   </style>
   <body class="scroll-smooth">
@@ -263,7 +313,48 @@
         </div>
       </div>
     </div>
-
+    <div id="popupContactForm" class="popup-contact-form">
+      <div class="popup-header">
+        <h2>Contact Us</h2>
+        <button id="closePopup" class="close-popup"><i class="fas fa-times"></i></button>
+      </div>
+      <form class="popup-form ">
+        <div class="flex-1">
+          <label class="block mb-2 text-[12px] text-gray-600">Full Name</label>
+          <input
+            type="text"
+            placeholder="Name Here"
+            class="block w-full px-5 py-1 mt-1 text-gray-700 placeholder-gray-400 text-[14px] bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+          />
+        </div>
+        <div class="flex-1 mt-4 w-full">
+          <label class="block mb-2 text-[12px] text-gray-600">Email address</label>
+          <input
+            type="email"
+            placeholder="username@example.com"
+            class="block w-full px-5 py-1 mt-1 text-gray-700 placeholder-gray-400 text-[14px] bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+          />
+        </div>
+        <div class="w-full mt-4">
+          <label class="block mb-2 text-[12px] text-gray-600">Message</label>
+          <textarea
+            class="block w-full h-10 px-5 py-3 mt-1 text-[14px] text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button
+          class="w-full px-4 py-2 mt-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+        >
+          Get in touch
+        </button>
+      </form>
+    </div>
+  
+    <!-- WhatsApp Floating Button -->
+    <!-- <a href="https://wa.me/919914021087" class="whatsapp-float" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="whatsapp-icon">
+      <span class="tooltip">Reach out to us</span>
+    </a> -->
     <section class="bg-[#161827]">
       
       
