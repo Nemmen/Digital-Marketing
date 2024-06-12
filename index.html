@@ -126,6 +126,70 @@
 }
 
 
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+
+
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll 40s linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+	}
+}
+
+
   </style>
   <body class="scroll-smooth">
     <!-- Google Tag Manager (noscript) -->
@@ -979,31 +1043,70 @@
           >
           Our clients
           </h2>
-          <marquee>
-           <div  class="flex gap-4  justify-around w-[150px] h-[100px]" >
-            <img src="./assets/images/1.jpg" width="130px" />
-            <img src="./assets/images/2.jpg" width="130px" />
-            <img src="./assets/images/3.jpg" width="130px" />
-            <img src="./assets/images/4.jpg" width="130px" />
-            <img src="./assets/images/5.jpg" width="130px" />
-            <img src="./assets/images/6.jpg" width="130px" />
-            <img src="./assets/images/7.jpg" width="130px" />
-            <img src="./assets/images/8.jpg" width="130px" />
-            <img src="./assets/images/9.jpg" width="130px" />
-            <img src="./assets/images/10.jpg" width="130px" />
-            <img src="./assets/images/11.jpg" width="130px" />
-            <img src="./assets/images/12.jpg" width="130px" />
-            <img src="./assets/images/13.jpg" width="130px" />
-            <img src="./assets/images/14.jpg" width="130px" />
-            <img src="./assets/images/15.jpg" width="130px" />
-            <img src="./assets/images/16.jpg" width="130px" />
-            <img src="./assets/images/17.jpg" width="130px" />
-            <img src="./assets/images/18.jpg" width="130px" />
-            <img src="./assets/images/19.jpg" width="130px" />
-            <img src="./assets/images/20.jpg" width="130px" />
-
-           </div>
-          </marquee>
+          <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <img src="./assets/images/1.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/2.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/3.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/4.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/5.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/6.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/7.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/8.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/9.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/10.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/11.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/12.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/13.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/14.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/15.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/16.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/17.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/18.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/19.jpg" height="100" width="250" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/20.jpg" height="100" width="250" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
        
       </div>
